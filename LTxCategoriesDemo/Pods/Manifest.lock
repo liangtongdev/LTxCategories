@@ -1,0 +1,20 @@
+PODS:
+  - LTxCategories (0.0.1):
+    - LTxCategories/Foundation (= 0.0.1)
+    - LTxCategories/UIKit (= 0.0.1)
+  - LTxCategories/Foundation (0.0.1)
+  - LTxCategories/UIKit (0.0.1)
+
+DEPENDENCIES:
+  - LTxCategories (from `../`)
+
+EXTERNAL SOURCES:
+  LTxCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTxCategories: 4af360cc54f2deb10c9ef1bc5a121f30e5d9dffe
+
+PODFILE CHECKSUM: 3e23cc4cb1350801cc19b06c65dbe2a1eea4013f
+
+COCOAPODS: 1.5.2

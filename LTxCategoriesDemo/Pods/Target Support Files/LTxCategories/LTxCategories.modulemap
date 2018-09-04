@@ -1,0 +1,6 @@
+framework module LTxCategories {
+  umbrella header "LTxCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

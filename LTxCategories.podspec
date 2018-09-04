@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LTxCategories"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "收集常用的扩展，方便开发中使用. "
   s.license      = "MIT"
   s.author             = { "liangtong" => "liangtongdev@163.com" }
@@ -12,7 +12,20 @@ Pod::Spec.new do |s|
 
   s.frameworks = "Foundation", "UIKit"
 
-  s.public_header_files = 'LTxCategories/*.h'
-  s.source_files = 'LTxCategories/*.{h,m}'
+  s.source_files  =  "LTxCategories/LTxCategories.h"
+  s.public_header_files = "LTxCategories/LTxCategories"
 
+  # UIKit
+  s.subspec 'UIKit' do |kit|
+      kit.source_files  =  "LTxCategories/UIKit/*.{h,m}"
+      kit.public_header_files = "LTxCategories/UIKit/*.h"
+  end
+  
+  # Foundation
+  s.subspec 'Foundation' do |foundation|
+      foundation.source_files  =  "LTxCategories/Foundation/*.{h,m}"
+      foundation.public_header_files = "LTxCategories/Foundation/*.h"
+  end
+  
+  
 end
