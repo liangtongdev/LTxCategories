@@ -14,6 +14,20 @@
 		27E02450213E6F6E0004757B /* UINavigationItem+LTxLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0244E213E6F6E0004757B /* UINavigationItem+LTxLoading.m */; };
 		27E02453213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E02451213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.h */; };
 		27E02454213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E02452213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.m */; };
+		27E02457213F6EF80004757B /* UINavigationBar+LTxAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E02455213F6EF80004757B /* UINavigationBar+LTxAwesome.h */; };
+		27E02458213F6EF80004757B /* UINavigationBar+LTxAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E02456213F6EF80004757B /* UINavigationBar+LTxAwesome.m */; };
+		27E0245B213F73480004757B /* UIButton+LTxBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E02459213F73480004757B /* UIButton+LTxBadge.h */; };
+		27E0245C213F73480004757B /* UIButton+LTxBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0245A213F73480004757B /* UIButton+LTxBadge.m */; };
+		27E0245F213F75040004757B /* UIButton+LTxImagePosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E0245D213F75040004757B /* UIButton+LTxImagePosition.h */; };
+		27E02460213F75040004757B /* UIButton+LTxImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0245E213F75040004757B /* UIButton+LTxImagePosition.m */; };
+		27E02463213F766C0004757B /* UIButton+LTxLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E02461213F766C0004757B /* UIButton+LTxLoading.h */; };
+		27E02464213F766C0004757B /* UIButton+LTxLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E02462213F766C0004757B /* UIButton+LTxLoading.m */; };
+		27E02467213F7B8A0004757B /* UIDevice+LTxHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E02465213F7B8A0004757B /* UIDevice+LTxHardware.h */; };
+		27E02468213F7B8A0004757B /* UIDevice+LTxHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E02466213F7B8A0004757B /* UIDevice+LTxHardware.m */; };
+		27E0246B213F7DFA0004757B /* UIImage+LTxGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E02469213F7DFA0004757B /* UIImage+LTxGIF.h */; };
+		27E0246C213F7DFA0004757B /* UIImage+LTxGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0246A213F7DFA0004757B /* UIImage+LTxGIF.m */; };
+		27E0246F213F80BE0004757B /* UIView+LTxNib.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E0246D213F80BE0004757B /* UIView+LTxNib.h */; };
+		27E02470213F80BE0004757B /* UIView+LTxNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0246E213F80BE0004757B /* UIView+LTxNib.m */; };
 		2D87251089EED0F8BF8351C5E1196B98 /* NSString+LTxHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 623B44EB3B1E8328A2E6EEB36313DFAE /* NSString+LTxHash.m */; };
 		2E3C4BB356D302B3A3F18201760AE6FD /* NSDate+LTxExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2F67731527BA81F8BC64CFACF5C35D /* NSDate+LTxExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C434F483C464C94626C0989006D332B /* Pods-LTxCategoriesDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78346D9EDE3DE0CFE3A955E31C8C73C5 /* Pods-LTxCategoriesDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +71,20 @@
 		27E0244E213E6F6E0004757B /* UINavigationItem+LTxLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+LTxLoading.m"; path = "LTxCategories/UIKit/UINavigationItem+LTxLoading.m"; sourceTree = "<group>"; };
 		27E02451213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIApplication+LTxNetworkActivityIndicator.h"; path = "LTxCategories/UIKit/UIApplication+LTxNetworkActivityIndicator.h"; sourceTree = "<group>"; };
 		27E02452213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+LTxNetworkActivityIndicator.m"; path = "LTxCategories/UIKit/UIApplication+LTxNetworkActivityIndicator.m"; sourceTree = "<group>"; };
+		27E02455213F6EF80004757B /* UINavigationBar+LTxAwesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+LTxAwesome.h"; path = "LTxCategories/UIKit/UINavigationBar+LTxAwesome.h"; sourceTree = "<group>"; };
+		27E02456213F6EF80004757B /* UINavigationBar+LTxAwesome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+LTxAwesome.m"; path = "LTxCategories/UIKit/UINavigationBar+LTxAwesome.m"; sourceTree = "<group>"; };
+		27E02459213F73480004757B /* UIButton+LTxBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIButton+LTxBadge.h"; path = "LTxCategories/UIKit/UIButton+LTxBadge.h"; sourceTree = "<group>"; };
+		27E0245A213F73480004757B /* UIButton+LTxBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LTxBadge.m"; path = "LTxCategories/UIKit/UIButton+LTxBadge.m"; sourceTree = "<group>"; };
+		27E0245D213F75040004757B /* UIButton+LTxImagePosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIButton+LTxImagePosition.h"; path = "LTxCategories/UIKit/UIButton+LTxImagePosition.h"; sourceTree = "<group>"; };
+		27E0245E213F75040004757B /* UIButton+LTxImagePosition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LTxImagePosition.m"; path = "LTxCategories/UIKit/UIButton+LTxImagePosition.m"; sourceTree = "<group>"; };
+		27E02461213F766C0004757B /* UIButton+LTxLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIButton+LTxLoading.h"; path = "LTxCategories/UIKit/UIButton+LTxLoading.h"; sourceTree = "<group>"; };
+		27E02462213F766C0004757B /* UIButton+LTxLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LTxLoading.m"; path = "LTxCategories/UIKit/UIButton+LTxLoading.m"; sourceTree = "<group>"; };
+		27E02465213F7B8A0004757B /* UIDevice+LTxHardware.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIDevice+LTxHardware.h"; path = "LTxCategories/UIKit/UIDevice+LTxHardware.h"; sourceTree = "<group>"; };
+		27E02466213F7B8A0004757B /* UIDevice+LTxHardware.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+LTxHardware.m"; path = "LTxCategories/UIKit/UIDevice+LTxHardware.m"; sourceTree = "<group>"; };
+		27E02469213F7DFA0004757B /* UIImage+LTxGIF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+LTxGIF.h"; path = "LTxCategories/UIKit/UIImage+LTxGIF.h"; sourceTree = "<group>"; };
+		27E0246A213F7DFA0004757B /* UIImage+LTxGIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LTxGIF.m"; path = "LTxCategories/UIKit/UIImage+LTxGIF.m"; sourceTree = "<group>"; };
+		27E0246D213F80BE0004757B /* UIView+LTxNib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxNib.h"; path = "LTxCategories/UIKit/UIView+LTxNib.h"; sourceTree = "<group>"; };
+		27E0246E213F80BE0004757B /* UIView+LTxNib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxNib.m"; path = "LTxCategories/UIKit/UIView+LTxNib.m"; sourceTree = "<group>"; };
 		29E123B7CB96F611C11D7AD7BEA84B6E /* LTxCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTxCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5D7105B1EB03DFC6ED516AAD8828E8 /* UIColor+LTxHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LTxHex.h"; path = "LTxCategories/UIKit/UIColor+LTxHex.h"; sourceTree = "<group>"; };
 		2C6CB1F2FE94B969AE94D142B03B41E8 /* NSString+LTxExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LTxExtension.h"; path = "LTxCategories/Foundation/NSString+LTxExtension.h"; sourceTree = "<group>"; };
@@ -129,6 +157,20 @@
 				27E0244E213E6F6E0004757B /* UINavigationItem+LTxLoading.m */,
 				27E02451213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.h */,
 				27E02452213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.m */,
+				27E02455213F6EF80004757B /* UINavigationBar+LTxAwesome.h */,
+				27E02456213F6EF80004757B /* UINavigationBar+LTxAwesome.m */,
+				27E02459213F73480004757B /* UIButton+LTxBadge.h */,
+				27E0245A213F73480004757B /* UIButton+LTxBadge.m */,
+				27E0245D213F75040004757B /* UIButton+LTxImagePosition.h */,
+				27E0245E213F75040004757B /* UIButton+LTxImagePosition.m */,
+				27E02461213F766C0004757B /* UIButton+LTxLoading.h */,
+				27E02462213F766C0004757B /* UIButton+LTxLoading.m */,
+				27E02465213F7B8A0004757B /* UIDevice+LTxHardware.h */,
+				27E02466213F7B8A0004757B /* UIDevice+LTxHardware.m */,
+				27E02469213F7DFA0004757B /* UIImage+LTxGIF.h */,
+				27E0246A213F7DFA0004757B /* UIImage+LTxGIF.m */,
+				27E0246D213F80BE0004757B /* UIView+LTxNib.h */,
+				27E0246E213F80BE0004757B /* UIView+LTxNib.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -265,13 +307,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E0245F213F75040004757B /* UIButton+LTxImagePosition.h in Headers */,
 				5064B7D04CCB70A6AF968DB12A1E7BE4 /* LTxCategories-umbrella.h in Headers */,
+				27E0246B213F7DFA0004757B /* UIImage+LTxGIF.h in Headers */,
+				27E02457213F6EF80004757B /* UINavigationBar+LTxAwesome.h in Headers */,
 				D7A1DCEC6C358AD0FD98705699F2C350 /* LTxCategories.h in Headers */,
+				27E0245B213F73480004757B /* UIButton+LTxBadge.h in Headers */,
 				2E3C4BB356D302B3A3F18201760AE6FD /* NSDate+LTxExtension.h in Headers */,
+				27E02467213F7B8A0004757B /* UIDevice+LTxHardware.h in Headers */,
+				27E02463213F766C0004757B /* UIButton+LTxLoading.h in Headers */,
 				500F299D841E130B00AFD0EDDE59C78E /* NSDictionary+LTxJSON.h in Headers */,
 				AEB2F28AF60B5238AE670855E3828461 /* NSString+LTxExtension.h in Headers */,
 				67E26AF4D479541867EFA8C900AA19D4 /* NSString+LTxHash.h in Headers */,
 				27E02453213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.h in Headers */,
+				27E0246F213F80BE0004757B /* UIView+LTxNib.h in Headers */,
 				64AB3399EB7B3DCB71AA8375A3A680DE /* NSString+LTxVerification.h in Headers */,
 				27E0244F213E6F6E0004757B /* UINavigationItem+LTxLoading.h in Headers */,
 				D3A0DC1240442744E21B7645E32C5309 /* UIColor+LTxHex.h in Headers */,
@@ -366,16 +415,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E02468213F7B8A0004757B /* UIDevice+LTxHardware.m in Sources */,
 				C65C17956B987DA212E190F9042E5FE1 /* LTxCategories-dummy.m in Sources */,
+				27E02460213F75040004757B /* UIButton+LTxImagePosition.m in Sources */,
 				A06A2BDA58E30F69D05650D7E2C91A31 /* NSDate+LTxExtension.m in Sources */,
+				27E0245C213F73480004757B /* UIButton+LTxBadge.m in Sources */,
+				27E02458213F6EF80004757B /* UINavigationBar+LTxAwesome.m in Sources */,
 				658AFCD219E4A482D5D33B5BEEC23D48 /* NSDictionary+LTxJSON.m in Sources */,
 				27E02454213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.m in Sources */,
 				0024EED4A10ACFE6E35FAA11EC1C1A23 /* NSString+LTxExtension.m in Sources */,
+				27E02470213F80BE0004757B /* UIView+LTxNib.m in Sources */,
 				2D87251089EED0F8BF8351C5E1196B98 /* NSString+LTxHash.m in Sources */,
+				27E0246C213F7DFA0004757B /* UIImage+LTxGIF.m in Sources */,
 				A3E8612DD7F1EB2D4948E21237A9BF0E /* NSString+LTxVerification.m in Sources */,
 				7C000E8D54101CE6AC7F245ED311555F /* UIColor+LTxHex.m in Sources */,
 				110F7FD42CC8098DA805C8A222518739 /* UITextView+LTxPlaceHolder.m in Sources */,
 				27E02450213E6F6E0004757B /* UINavigationItem+LTxLoading.m in Sources */,
+				27E02464213F766C0004757B /* UIButton+LTxLoading.m in Sources */,
 				56CBBD7DAA3F07E4B21F6B9CB6B23708 /* UIView+LTxScreenshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
