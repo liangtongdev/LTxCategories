@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = "Foundation", "UIKit"
 
-  s.source_files  =  "LTxCategories/LTxCategories.h"
-  s.public_header_files = "LTxCategories/LTxCategories"
+
 
   # UIKit
   s.subspec 'UIKit' do |kit|
@@ -26,6 +25,16 @@ Pod::Spec.new do |s|
       foundation.source_files  =  "LTxCategories/Foundation/*.{h,m}"
       foundation.public_header_files = "LTxCategories/Foundation/*.h"
   end
+  
+  # Core
+  s.subspec 'Core' do |core|
+      core.source_files  =  "LTxCategories/LTxCategories.h"
+      core.public_header_files = "LTxCategories/LTxCategories.h"
+      core.dependency 'LTxCategories/UIKit'
+      core.dependency 'LTxCategories/Foundation'
+  end
+  
+
   
   
 end
