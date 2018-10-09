@@ -10,6 +10,8 @@
 		0024EED4A10ACFE6E35FAA11EC1C1A23 /* NSString+LTxExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA15A66742EFB3A67EF6E50D7731EF4 /* NSString+LTxExtension.m */; };
 		110F7FD42CC8098DA805C8A222518739 /* UITextView+LTxPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 624CFFE56E69642CC9AA24B296270B3F /* UITextView+LTxPlaceHolder.m */; };
 		25A05F596D6E28D4C3544EB8B007DD20 /* Pods-LTxCategoriesDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D3472085EA28EA336C2EF410780B /* Pods-LTxCategoriesDemo-dummy.m */; };
+		270340E0216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 270340DE216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.h */; };
+		270340E1216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 270340DF216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.m */; };
 		27E0244F213E6F6E0004757B /* UINavigationItem+LTxLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E0244D213E6F6E0004757B /* UINavigationItem+LTxLoading.h */; };
 		27E02450213E6F6E0004757B /* UINavigationItem+LTxLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0244E213E6F6E0004757B /* UINavigationItem+LTxLoading.m */; };
 		27E02453213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E02451213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.h */; };
@@ -66,6 +68,8 @@
 		19BB02EEE2602C649D4E459A93E55511 /* Pods_LTxCategoriesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTxCategoriesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9BB450E770F8ECC6835770072B926A /* LTxCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTxCategories.xcconfig; sourceTree = "<group>"; };
 		1F07ED1AA999071F21516A155FB29775 /* NSDate+LTxExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+LTxExtension.m"; path = "LTxCategories/Foundation/NSDate+LTxExtension.m"; sourceTree = "<group>"; };
+		270340DE216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+LTxExtension.h"; path = "LTxCategories/Foundation/NSUserDefaults+LTxExtension.h"; sourceTree = "<group>"; };
+		270340DF216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+LTxExtension.m"; path = "LTxCategories/Foundation/NSUserDefaults+LTxExtension.m"; sourceTree = "<group>"; };
 		27CC36C6FCCC0C68843AC60C54A14B85 /* NSDictionary+LTxJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LTxJSON.m"; path = "LTxCategories/Foundation/NSDictionary+LTxJSON.m"; sourceTree = "<group>"; };
 		27E0244D213E6F6E0004757B /* UINavigationItem+LTxLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+LTxLoading.h"; path = "LTxCategories/UIKit/UINavigationItem+LTxLoading.h"; sourceTree = "<group>"; };
 		27E0244E213E6F6E0004757B /* UINavigationItem+LTxLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+LTxLoading.m"; path = "LTxCategories/UIKit/UINavigationItem+LTxLoading.m"; sourceTree = "<group>"; };
@@ -222,6 +226,8 @@
 				623B44EB3B1E8328A2E6EEB36313DFAE /* NSString+LTxHash.m */,
 				66F53BF084B1B7994E98DE1EFF1C5D48 /* NSString+LTxVerification.h */,
 				4CE5B50E17B9376A73C27BC5C37FB362 /* NSString+LTxVerification.m */,
+				270340DE216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.h */,
+				270340DF216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -326,6 +332,7 @@
 				D3A0DC1240442744E21B7645E32C5309 /* UIColor+LTxHex.h in Headers */,
 				F89D2353894F30B7057EEC41DA27A805 /* UITextView+LTxPlaceHolder.h in Headers */,
 				588413806BB3674E15242ED76D78F7C7 /* UIView+LTxScreenshot.h in Headers */,
+				270340E0216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +427,7 @@
 				27E02460213F75040004757B /* UIButton+LTxImagePosition.m in Sources */,
 				A06A2BDA58E30F69D05650D7E2C91A31 /* NSDate+LTxExtension.m in Sources */,
 				27E0245C213F73480004757B /* UIButton+LTxBadge.m in Sources */,
+				270340E1216CF3FB003D2BFC /* NSUserDefaults+LTxExtension.m in Sources */,
 				27E02458213F6EF80004757B /* UINavigationBar+LTxAwesome.m in Sources */,
 				658AFCD219E4A482D5D33B5BEEC23D48 /* NSDictionary+LTxJSON.m in Sources */,
 				27E02454213E72B70004757B /* UIApplication+LTxNetworkActivityIndicator.m in Sources */,

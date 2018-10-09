@@ -23,6 +23,7 @@
 #import "NSString+LTxVerification.h"//字符串简单校验
 #import "NSString+LTxHash.h"//字符串编码
 #import "NSDictionary+LTxJSON.h"//JSON与字典互转
+#import "NSUserDefaults+LTxExtension.h"//NSUserDefaults访问
 
 
 #import "UIColor+LTxHex.h"//颜色
