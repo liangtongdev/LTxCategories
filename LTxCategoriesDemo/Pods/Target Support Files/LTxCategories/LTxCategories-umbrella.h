@@ -23,6 +23,7 @@
 #import "UIButton+LTxLoading.h"
 #import "UIColor+LTxHex.h"
 #import "UIDevice+LTxHardware.h"
+#import "UIImage+LTxColor.h"
 #import "UIImage+LTxGIF.h"
 #import "UINavigationBar+LTxAwesome.h"
 #import "UINavigationItem+LTxLoading.h"

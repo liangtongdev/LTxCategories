@@ -34,6 +34,7 @@
 #import "UIButton+LTxLoading.h"//按钮上添加动画
 #import "UIDevice+LTxHardware.h"//设备硬件信息
 #import "UIImage+LTxGIF.h"//gif 图片展示
+#import "UIImage+LTxColor.h"//根据颜色生成图片
 #import "UIView+LTxNib.h"//从nib文件加载UIView
 #import "UIView+LTxToast.h"//Toast
 
