@@ -35,5 +35,6 @@
 #import "UIDevice+LTxHardware.h"//设备硬件信息
 #import "UIImage+LTxGIF.h"//gif 图片展示
 #import "UIView+LTxNib.h"//从nib文件加载UIView
+#import "UIView+LTxToast.h"//Toast
 
 #endif /* LTxCategories_h */

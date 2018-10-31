@@ -1,9 +1,13 @@
 PODS:
-  - LTxCategories (0.0.1):
-    - LTxCategories/Foundation (= 0.0.1)
-    - LTxCategories/UIKit (= 0.0.1)
-  - LTxCategories/Foundation (0.0.1)
-  - LTxCategories/UIKit (0.0.1)
+  - LTxCategories (0.0.3):
+    - LTxCategories/Core (= 0.0.3)
+    - LTxCategories/Foundation (= 0.0.3)
+    - LTxCategories/UIKit (= 0.0.3)
+  - LTxCategories/Core (0.0.3):
+    - LTxCategories/Foundation
+    - LTxCategories/UIKit
+  - LTxCategories/Foundation (0.0.3)
+  - LTxCategories/UIKit (0.0.3)
 
 DEPENDENCIES:
   - LTxCategories (from `../`)
@@ -13,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LTxCategories: 4af360cc54f2deb10c9ef1bc5a121f30e5d9dffe
+  LTxCategories: 557fa520db14d88d5abd82cb0b5d7385e315e130
 
 PODFILE CHECKSUM: 3e23cc4cb1350801cc19b06c65dbe2a1eea4013f
 
