@@ -37,5 +37,6 @@
 #import "UIImage+LTxColor.h"//根据颜色生成图片
 #import "UIView+LTxNib.h"//从nib文件加载UIView
 #import "UIView+LTxToast.h"//Toast
+#import "UIView+LTxConstraint.h"//简单的约束
 
 #endif /* LTxCategories_h */
