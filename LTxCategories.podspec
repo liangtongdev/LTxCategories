@@ -13,17 +13,24 @@ Pod::Spec.new do |s|
   s.frameworks = "Foundation", "UIKit"
 
 
-
+  # Common
+  s.subspec 'Common' do |cmn|
+      cmn.source_files  =  "LTxCategories/Common/*.{h,m}"
+      cmn.public_header_files = "LTxCategories/Common/*.h"
+  end
+  
   # UIKit
   s.subspec 'UIKit' do |kit|
       kit.source_files  =  "LTxCategories/UIKit/*.{h,m}"
       kit.public_header_files = "LTxCategories/UIKit/*.h"
+      kit.dependency 'LTxCategories/Common'
   end
   
   # Foundation
   s.subspec 'Foundation' do |foundation|
       foundation.source_files  =  "LTxCategories/Foundation/*.{h,m}"
       foundation.public_header_files = "LTxCategories/Foundation/*.h"
+      foundation.dependency 'LTxCategories/Common'
   end
   
   # Core

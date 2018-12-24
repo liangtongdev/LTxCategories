@@ -41,7 +41,13 @@
 #import "UIView+LTxNib.h"//从nib文件加载UIView
 #import "UIView+LTxToast.h"//Toast
 #import "UIView+LTxConstraint.h"//简单的约束
+#import "UIView+LTxCorner.h"//圆角
 
 #endif /* LTxCategories_h */
 
 ```
+
+
+### 截图
+
+![](https://github.com/liangtongdev/LTxCategories/blob/master/screenshots/corner.png)

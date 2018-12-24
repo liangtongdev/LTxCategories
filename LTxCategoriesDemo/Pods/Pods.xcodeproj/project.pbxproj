@@ -3,60 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0544A4129209E73E37FC2001F6AC6256 /* UIImage+LTxColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAED9618BF81DA6BFE40EE2227FF758 /* UIImage+LTxColor.m */; };
-		0C864C2FE10569BAE56E4EC0F9A56FB5 /* LTxCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 8683D9C09C1404835CF6058E42FEE6E6 /* LTxCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15FBCD3A05496011E2C8290A0D61E0B3 /* UIButton+LTxBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9704967236C15F5AE55523EABE243654 /* UIButton+LTxBadge.m */; };
-		17B0666C6FBC8C69D4827B63CC4B6866 /* NSString+LTxExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F4713B8405ECA4E59BBB977E6DB7FD0E /* NSString+LTxExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2506F1DDC39C11B4AB94D2167265B8F4 /* NSUserDefaults+LTxExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 650C8B3157CCCAEE10B5D3C907F0E0D0 /* NSUserDefaults+LTxExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0665F28D24CAFFD00219CB1B91133302 /* UIImage+LTxColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C96BC8E653363F0787CD6CDED476AFE7 /* UIImage+LTxColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06CF5DF98559524D062801203BF930C7 /* UIDevice+LTxHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EACEB2EB60B2B0C90F6DD143DD87823 /* UIDevice+LTxHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095C319EA2EEE32EAD8F54645854D759 /* LTxCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B72FAF2AC803EA9A1CAE17C878F57F /* LTxCategories-dummy.m */; };
+		0A3FA7DF113AA9AFC4FFFBE485302484 /* UIButton+LTxImagePosition.h in Headers */ = {isa = PBXBuildFile; fileRef = A903BA4927A6ED9F1BE1A10B9DAF036B /* UIButton+LTxImagePosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1494BD187EA2C9785D7718C0E1ED1D2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		23465FC3F38A9896574194FDC4804B97 /* NSString+LTxVerification.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE0A3D482A3BDE4D05EA324DE5C1040 /* NSString+LTxVerification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25A05F596D6E28D4C3544EB8B007DD20 /* Pods-LTxCategoriesDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D3472085EA28EA336C2EF410780B /* Pods-LTxCategoriesDemo-dummy.m */; };
-		29D94E50ACE8EDB3682D7048DED4E53F /* UIButton+LTxImagePosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F8C7BF3DC9FE75E6BA1D8398E037E0 /* UIButton+LTxImagePosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D476E7ED2700B46B73A3DD3371BC283 /* UINavigationItem+LTxLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 404F6FFB4DE949163BA23733D60C941F /* UINavigationItem+LTxLoading.m */; };
-		3102B443D3E2D5F8664C5A2A2737CFB2 /* UIView+LTxConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC16AB46C5E745F3BA5B315068D171F /* UIView+LTxConstraint.m */; };
-		36B9BA27104303FFF3907AAB49376444 /* UIApplication+LTxNetworkActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B060713EB02614451C2E812E56C1115 /* UIApplication+LTxNetworkActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40D1ED504BA5B6ECA37883FCC62E465E /* NSString+LTxExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 198366C754B1799A144692E1877A50E6 /* NSString+LTxExtension.m */; };
-		46E3BFBC79126D34835D7E1065797E4C /* UIView+LTxNib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC91FB48A2D0629E8B5B51244181029 /* UIView+LTxNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DDF44164271ACB0B4D1283B28CE61C9 /* UIDevice+LTxHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = F31EF6B028ECB896DF549EECBF14C6D1 /* UIDevice+LTxHardware.m */; };
+		32381FC26F375012835337B276D40274 /* LTxCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = A2286E2BFDED38B2B29F3A09DB2607FC /* LTxCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35990B3893ABB9B044D23714BFEE6FE4 /* UIView+LTxToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B122FF2C980F566A31446F7FB111F784 /* UIView+LTxToast.m */; };
+		35CB2CCC3B4E279E099DA6C5A1BDA87F /* UITextView+LTxPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB343BB1BF93E68C5CC90BDAB5F0C6A /* UITextView+LTxPlaceHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		384832E9D04CA175BE90D18F13EEAEF1 /* UIView+LTxScreenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 202EDD279FE68A01A8562290FC00EE95 /* UIView+LTxScreenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B7C3D834A75F07716EB210957F916CD /* LTxCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 098B6DCE2C785AB6492C91B6607A8AAC /* LTxCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		475F64FEAA151EDB20B6CACDC7F7D9DD /* UIColor+LTxHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 002630D08DDE90C63DCEB7C96B6445FF /* UIColor+LTxHex.m */; };
+		4901D3710240573A7AD68AF99B86400E /* NSDictionary+LTxJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3733A73A123743A41FE8E8298ED101 /* NSDictionary+LTxJSON.m */; };
 		4C434F483C464C94626C0989006D332B /* Pods-LTxCategoriesDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78346D9EDE3DE0CFE3A955E31C8C73C5 /* Pods-LTxCategoriesDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FA1D312ACBD52546DBDA166EDCB5521 /* UITextView+LTxPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C75CC53D8B32EC207EAF443BFFCFEAF /* UITextView+LTxPlaceHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58CD75D02A2DE670ECD54BDFF556E77B /* UIView+LTxScreenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BC489D36608C3A317E104D0D9A5EBC /* UIView+LTxScreenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59DEB917D426AA2C7F0B082628C38EBA /* UIButton+LTxLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = DD935E6619B68912195B15DACE8C9165 /* UIButton+LTxLoading.m */; };
-		5C34DEC716B7A6966D12E8B41A19D903 /* UIDevice+LTxHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E5F3ED5C1A3B00CF8245201FF5F4B7 /* UIDevice+LTxHardware.m */; };
-		5E4B0E87C2D5B4204FD37FE29771C17C /* LTxCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C351E3D6ACEE166B974BAC46089C9 /* LTxCategories-dummy.m */; };
-		6152A1CE1DC4B78367CBC62023C1F44D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		65499E1371666E2B83F9AD546D3AB589 /* UIApplication+LTxNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B138DA5BF255B2DC455498DBAD041 /* UIApplication+LTxNetworkActivityIndicator.m */; };
-		6A555B0372A757AA91BF7FF76D54E515 /* UIColor+LTxHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 04684765FF6D5FEEA18DFCEFE77AA89A /* UIColor+LTxHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AF419806740A138F32F475B5B47606A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		7169A0A98314436EF976EC46CC1F50A1 /* UIButton+LTxLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D39E694A5C834CB2904FDCB1576510 /* UIButton+LTxLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72C362787875D7326EB9732D0481FAB1 /* UIButton+LTxImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9231A947B6C374EC8460A00DD497404C /* UIButton+LTxImagePosition.m */; };
-		755E5D96BE8C4F81BA6187D7CC4B6D2D /* UIView+LTxConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DC95D884E30852477E17CDE241C623EC /* UIView+LTxConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B2902F0075E7A596E673E6C8E614513 /* LTxCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EBB03832327D32D58CA7F981CFB70A /* LTxCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82D327FC7E65685F2F8266030EC7917F /* NSDictionary+LTxJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDBE3E7AA2D509098FFF57D3947E4A6 /* NSDictionary+LTxJSON.m */; };
-		8A816CBA2222B15CF9EED5E851A67B20 /* UIView+LTxToast.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B193D6E262D270591C6AFFA14D4359 /* UIView+LTxToast.m */; };
-		8F40007719E9DE9943E967F5C7AD5BE7 /* NSString+LTxVerification.m in Sources */ = {isa = PBXBuildFile; fileRef = B658C427296110492ADF20105177F7A6 /* NSString+LTxVerification.m */; };
-		9275EE9B46FF14B484B4AA7D7BBB3C03 /* UINavigationItem+LTxLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9BA833C51D89D1FB1DEA7F00B5DE4E /* UINavigationItem+LTxLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9605DC49150F180E8222C2EF219D3569 /* NSString+LTxVerification.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D0EB09D2CEE6378CAD725FF5CAAAA0 /* NSString+LTxVerification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BD8DC1368A7F8853D4FE5B65BA99AAF /* UIView+LTxScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FF9C4709785742CF45180537CF49 /* UIView+LTxScreenshot.m */; };
-		9C525EF221943E2F035AE092C9862103 /* NSDate+LTxExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6257745AEF2A546BC16F0DB7AE7A60 /* NSDate+LTxExtension.m */; };
-		A02A67A778B197FC1A4E2A08D2AB6D4F /* UINavigationBar+LTxAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF2DFF5F03EF47031C8077E095DBBB /* UINavigationBar+LTxAwesome.m */; };
-		B05755AB32BC4C80FA7C88AD898E1CD9 /* NSUserDefaults+LTxExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32563CC62668B0DDCA87B482132ED6AB /* NSUserDefaults+LTxExtension.m */; };
-		B2108C6C66A51441A21BC428B124B8F7 /* UIImage+LTxColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FD6DFE790ACFDF0F5EEABB2FDE449A /* UIImage+LTxColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC0463E28EB1A91F63EF09322F38FF32 /* NSDictionary+LTxJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FD27B385057C54DD5104CE617CB022 /* NSDictionary+LTxJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE3E4AE7602456CD59AFDFB21CB0846B /* UIView+LTxNib.m in Sources */ = {isa = PBXBuildFile; fileRef = F94C2C871735B3F247852A168BA48119 /* UIView+LTxNib.m */; };
-		C7EA9A2ECB5E0023C092D26BF723AA8D /* UITextView+LTxPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 29184E5854F8A799FB75360F411E1710 /* UITextView+LTxPlaceHolder.m */; };
-		CE62D7E8695A3DFDDDF4FBEB7DAB14BF /* UIImage+LTxGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F597FB3647DB005D2C594ADF47A0400F /* UIImage+LTxGIF.m */; };
-		D299659A6EB4779AE8D19F7A3236285D /* NSString+LTxHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136D2817F0FBCE76E18EE81C5D58AD0 /* NSString+LTxHash.m */; };
-		DAFBD97B0429B2128F8543699751B3C1 /* UIView+LTxToast.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8EC25DAB405583BB8851E8EB905ABD /* UIView+LTxToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F3A0F6D843D3918CD4A5D64E4342395 /* UIView+LTxNib.h in Headers */ = {isa = PBXBuildFile; fileRef = E40BE8F0BA4F133468014FEC0FA8B6EF /* UIView+LTxNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FD860F09ABE127F2FC914554B87C417 /* LTxCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 441665DEFC101933A97DCD3A9C7C357C /* LTxCorner.m */; };
+		68206771A92B83BEE6F251442ED32DC7 /* UIView+LTxConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B58C02B2730327CF70A3B7721F15B0 /* UIView+LTxConstraint.m */; };
+		6A666477ED54525B5B4865A211D69FB6 /* UIView+LTxToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3D7FBBA75F157069FCB9B361695682 /* UIView+LTxToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C66C3BD876679F04CE34FAAB5A30E33 /* UIView+LTxConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C9894CEF39AA2AC0E8CA3CF7EDF3C20D /* UIView+LTxConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECF0F33887ABB66983D34E6D6327B72 /* UIView+LTxNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05B712F6D3CB5EEFB3EF9DF4FECBCF /* UIView+LTxNib.m */; };
+		6F4CD38199C24C94F424353A4EB1EA92 /* UIButton+LTxLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F26A4B80E8502EB9B649CB0EB7B6F3 /* UIButton+LTxLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DA4212E521BD979672B7C12E1134CD /* UIButton+LTxImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC030A5C14189729B6C72E03D79A853 /* UIButton+LTxImagePosition.m */; };
+		74F8B9BF94AABAAC0FB6E8839A1AAD4C /* LTxCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0EF9A6F328FF58F1DCCEDD7226805D /* LTxCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766BD5D82D89FF00FF966EFC052255EE /* UIApplication+LTxNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9A7D30059634304E0522820E3B912 /* UIApplication+LTxNetworkActivityIndicator.m */; };
+		794AE86FCAD615D019B550DEDACB45FD /* NSUserDefaults+LTxExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 121A4208951196BDAF342310F5250CB7 /* NSUserDefaults+LTxExtension.m */; };
+		8967483C1E982783B95E9E3C7064DA33 /* NSDate+LTxExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7F824E4ADD3F6B6EB9E2EE2DD2CED2 /* NSDate+LTxExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D6FB376D416324DF2E51D019927FE94 /* UIApplication+LTxNetworkActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DFB5122EE068E8BD62DC279DFF76DC /* UIApplication+LTxNetworkActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A79E7711525ECA0571A83470617421BB /* UIView+LTxCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68FC57AE3F097A4D8844CBA4324138 /* UIView+LTxCorner.m */; };
+		A7BC9C976D5F4E3F4A32FEF3D8E58EE3 /* NSString+LTxHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2869EB0DF1D55AAD189367F198AFDE /* NSString+LTxHash.m */; };
+		AB217A6081CEAE38BA6D5C0041D30C5F /* UITextView+LTxPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C93DFDE722BB73FC7E8A433E2338F /* UITextView+LTxPlaceHolder.m */; };
+		AE07A3342CF9DDD3EC343604E834B85A /* UIView+LTxCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 248F01C02A34CFDE6DC412BD23649455 /* UIView+LTxCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE434DC3CF011D57B175681F90A24F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		B32738414838695E54903F8F8DF0E23E /* UINavigationItem+LTxLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 038F40C221D34CAE7798D25B62DD181D /* UINavigationItem+LTxLoading.m */; };
+		B9F165F7FA857AEDFB1B9FA999FEB62D /* UIImage+LTxGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 66489DB1988DCC02A1FA2FB8E51B2ADF /* UIImage+LTxGIF.m */; };
+		BE7148DEAEADEACD1BD13B50CE3C4D26 /* NSString+LTxHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 126D2DCC2B252982EC103931C4411268 /* NSString+LTxHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2E9E93FBC04124527D0928234A73E7 /* NSDictionary+LTxJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D72E85346734E3D9D0EE7600617D25 /* NSDictionary+LTxJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C16292FB90465F785D4C28EECD441DBB /* NSString+LTxExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A37CA887F0E93D174A1BACF8019AA /* NSString+LTxExtension.m */; };
+		C9141E22456E00EFE9B892B8720676E7 /* UIButton+LTxBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E2FD4D8CF1186318B7FE9C98F7224E /* UIButton+LTxBadge.m */; };
+		CA21B3B6BBE185CBE9CF35CB786C60B8 /* NSUserDefaults+LTxExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3EB89383510128BE7B097B3A2F0095 /* NSUserDefaults+LTxExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D06B87787E347659D7DD839183A3A1FD /* UIImage+LTxGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB1F131AB5E451949B85CD1AFEEBB47 /* UIImage+LTxGIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D5CC0375D7F97EB4FA83E2FF8D006E /* UIButton+LTxLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D76DDBC384F213A112FC82D1058CAE4 /* UIButton+LTxLoading.m */; };
+		D36D30E601596B981D3D29CE1246863D /* UIView+LTxScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595BE4174938CB356E8F66664D205F1 /* UIView+LTxScreenshot.m */; };
+		D4D49EE4346909C425156D47E4360C83 /* NSString+LTxExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B3525D773098254B20DCE1076905E3A8 /* NSString+LTxExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB29A8C57EB87DDCC40323D9C9EA8FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		DBA0AEF078DF19562A42536788092078 /* NSDate+LTxExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 62059ECA1D6AF3C8D18E91CFFD696143 /* NSDate+LTxExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDEA1EECBBE22872D1D330BD574DAAF4 /* UINavigationBar+LTxAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BCAA95852741A96F520271509ED88D /* UINavigationBar+LTxAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E042463D077C4F19DBD45BF1279568A6 /* UIImage+LTxGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F1C6B49C9D23E4168744F85E658CCF /* UIImage+LTxGIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0D8A3F573D0FFAE2FEBDEDBD8F031A8 /* UIColor+LTxHex.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB4D1B8A535153A621DB82D76CEB872 /* UIColor+LTxHex.m */; };
-		F08CFBC9CA4EB5431FA0135EDD8802EB /* NSString+LTxHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B97D42B863DD3E56495C598C0AD25D4 /* NSString+LTxHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F20AF0F846A423ACE7EB1FD41D8B2925 /* UIButton+LTxBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC3E0F61F0575A82F8C2F837303069F /* UIButton+LTxBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6B6E498426307D21E65D5E6EE647635 /* UIDevice+LTxHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3C41C1DBD2BFE88CA8CD7F094DED8A /* UIDevice+LTxHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE15A26FE8BC3844879A97FED42AF4ED /* UIImage+LTxColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDEB4583706567277CE03C3AD79B16 /* UIImage+LTxColor.m */; };
+		E05C9F646BFEC2CF9AB7A63BCBA6EA3E /* UINavigationBar+LTxAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AA99188A1732AE8E90AE26720302DF /* UINavigationBar+LTxAwesome.m */; };
+		E90353D7CDD21FC14515EB8305CB7B3D /* UINavigationItem+LTxLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D25BFF30AC35984DF92440E7B6DE78D /* UINavigationItem+LTxLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED99674242DF0694317FE6A88E0028D7 /* UIButton+LTxBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED020ECFDE4BDDAC77A2C21121E281A /* UIButton+LTxBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F114D37F86B3EDB9ED24B6AD5E1F92D4 /* NSDate+LTxExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B080D920AB271C9A33CF1B0B412D2EB /* NSDate+LTxExtension.m */; };
+		F3AF0D2D7FBD219387E5D408B7EE233B /* UINavigationBar+LTxAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF1A436A6CB8CCFEDBFBB9EC433DF4B /* UINavigationBar+LTxAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DEEE6ACC859B720862D365418D0400 /* NSString+LTxVerification.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8ACD790E9D89EBDD698B6FCF65F1BA /* NSString+LTxVerification.m */; };
+		F91B1E971B39DF87B4DA366C48679752 /* UIColor+LTxHex.h in Headers */ = {isa = PBXBuildFile; fileRef = AD78A08B013871E6DCB71B2AD0467F2E /* UIColor+LTxHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,78 +68,82 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F025AA1E518DED8DF2C4AFAA36E72E5C;
+			remoteGlobalIDString = 2300186862995E663D732EB61BD55B56;
 			remoteInfo = LTxCategories;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04684765FF6D5FEEA18DFCEFE77AA89A /* UIColor+LTxHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LTxHex.h"; path = "LTxCategories/UIKit/UIColor+LTxHex.h"; sourceTree = "<group>"; };
-		04BC489D36608C3A317E104D0D9A5EBC /* UIView+LTxScreenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxScreenshot.h"; path = "LTxCategories/UIKit/UIView+LTxScreenshot.h"; sourceTree = "<group>"; };
-		0AC91FB48A2D0629E8B5B51244181029 /* UIView+LTxNib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxNib.h"; path = "LTxCategories/UIKit/UIView+LTxNib.h"; sourceTree = "<group>"; };
-		0B97D42B863DD3E56495C598C0AD25D4 /* NSString+LTxHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LTxHash.h"; path = "LTxCategories/Foundation/NSString+LTxHash.h"; sourceTree = "<group>"; };
-		198366C754B1799A144692E1877A50E6 /* NSString+LTxExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LTxExtension.m"; path = "LTxCategories/Foundation/NSString+LTxExtension.m"; sourceTree = "<group>"; };
-		19BB02EEE2602C649D4E459A93E55511 /* Pods_LTxCategoriesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTxCategoriesDemo.framework; path = "Pods-LTxCategoriesDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27C465DC413BB50DCD973AB4A2B52E95 /* LTxCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LTxCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		29184E5854F8A799FB75360F411E1710 /* UITextView+LTxPlaceHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+LTxPlaceHolder.m"; path = "LTxCategories/UIKit/UITextView+LTxPlaceHolder.m"; sourceTree = "<group>"; };
-		29E123B7CB96F611C11D7AD7BEA84B6E /* LTxCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTxCategories.framework; path = LTxCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B060713EB02614451C2E812E56C1115 /* UIApplication+LTxNetworkActivityIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+LTxNetworkActivityIndicator.h"; path = "LTxCategories/UIKit/UIApplication+LTxNetworkActivityIndicator.h"; sourceTree = "<group>"; };
-		32563CC62668B0DDCA87B482132ED6AB /* NSUserDefaults+LTxExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+LTxExtension.m"; path = "LTxCategories/Foundation/NSUserDefaults+LTxExtension.m"; sourceTree = "<group>"; };
-		37F1C6B49C9D23E4168744F85E658CCF /* UIImage+LTxGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LTxGIF.h"; path = "LTxCategories/UIKit/UIImage+LTxGIF.h"; sourceTree = "<group>"; };
-		3A3C41C1DBD2BFE88CA8CD7F094DED8A /* UIDevice+LTxHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+LTxHardware.h"; path = "LTxCategories/UIKit/UIDevice+LTxHardware.h"; sourceTree = "<group>"; };
-		404F6FFB4DE949163BA23733D60C941F /* UINavigationItem+LTxLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+LTxLoading.m"; path = "LTxCategories/UIKit/UINavigationItem+LTxLoading.m"; sourceTree = "<group>"; };
-		40FF2DFF5F03EF47031C8077E095DBBB /* UINavigationBar+LTxAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+LTxAwesome.m"; path = "LTxCategories/UIKit/UINavigationBar+LTxAwesome.m"; sourceTree = "<group>"; };
+		002630D08DDE90C63DCEB7C96B6445FF /* UIColor+LTxHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LTxHex.m"; path = "LTxCategories/UIKit/UIColor+LTxHex.m"; sourceTree = "<group>"; };
+		038F40C221D34CAE7798D25B62DD181D /* UINavigationItem+LTxLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+LTxLoading.m"; path = "LTxCategories/UIKit/UINavigationItem+LTxLoading.m"; sourceTree = "<group>"; };
+		073FE0484E12C66C347CB607B0A19FD4 /* LTxCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTxCategories.xcconfig; sourceTree = "<group>"; };
+		098B6DCE2C785AB6492C91B6607A8AAC /* LTxCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTxCorner.h; path = LTxCategories/Common/LTxCorner.h; sourceTree = "<group>"; };
+		121A4208951196BDAF342310F5250CB7 /* NSUserDefaults+LTxExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+LTxExtension.m"; path = "LTxCategories/Foundation/NSUserDefaults+LTxExtension.m"; sourceTree = "<group>"; };
+		126D2DCC2B252982EC103931C4411268 /* NSString+LTxHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LTxHash.h"; path = "LTxCategories/Foundation/NSString+LTxHash.h"; sourceTree = "<group>"; };
+		18A9A7D30059634304E0522820E3B912 /* UIApplication+LTxNetworkActivityIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+LTxNetworkActivityIndicator.m"; path = "LTxCategories/UIKit/UIApplication+LTxNetworkActivityIndicator.m"; sourceTree = "<group>"; };
+		19BB02EEE2602C649D4E459A93E55511 /* Pods_LTxCategoriesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTxCategoriesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A05B712F6D3CB5EEFB3EF9DF4FECBCF /* UIView+LTxNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxNib.m"; path = "LTxCategories/UIKit/UIView+LTxNib.m"; sourceTree = "<group>"; };
+		1B080D920AB271C9A33CF1B0B412D2EB /* NSDate+LTxExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+LTxExtension.m"; path = "LTxCategories/Foundation/NSDate+LTxExtension.m"; sourceTree = "<group>"; };
+		202EDD279FE68A01A8562290FC00EE95 /* UIView+LTxScreenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxScreenshot.h"; path = "LTxCategories/UIKit/UIView+LTxScreenshot.h"; sourceTree = "<group>"; };
+		248F01C02A34CFDE6DC412BD23649455 /* UIView+LTxCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxCorner.h"; path = "LTxCategories/UIKit/UIView+LTxCorner.h"; sourceTree = "<group>"; };
+		2595BE4174938CB356E8F66664D205F1 /* UIView+LTxScreenshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxScreenshot.m"; path = "LTxCategories/UIKit/UIView+LTxScreenshot.m"; sourceTree = "<group>"; };
+		26E2FD4D8CF1186318B7FE9C98F7224E /* UIButton+LTxBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LTxBadge.m"; path = "LTxCategories/UIKit/UIButton+LTxBadge.m"; sourceTree = "<group>"; };
+		29E123B7CB96F611C11D7AD7BEA84B6E /* LTxCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTxCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3EB89383510128BE7B097B3A2F0095 /* NSUserDefaults+LTxExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+LTxExtension.h"; path = "LTxCategories/Foundation/NSUserDefaults+LTxExtension.h"; sourceTree = "<group>"; };
+		2ED020ECFDE4BDDAC77A2C21121E281A /* UIButton+LTxBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LTxBadge.h"; path = "LTxCategories/UIKit/UIButton+LTxBadge.h"; sourceTree = "<group>"; };
+		3E2869EB0DF1D55AAD189367F198AFDE /* NSString+LTxHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LTxHash.m"; path = "LTxCategories/Foundation/NSString+LTxHash.m"; sourceTree = "<group>"; };
+		441665DEFC101933A97DCD3A9C7C357C /* LTxCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTxCorner.m; path = LTxCategories/Common/LTxCorner.m; sourceTree = "<group>"; };
 		487D8A4858C1C8B72D363419AE18C644 /* Pods-LTxCategoriesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTxCategoriesDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		547A1C7525E25673E21777D03C684534 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5DDBE3E7AA2D509098FFF57D3947E4A6 /* NSDictionary+LTxJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LTxJSON.m"; path = "LTxCategories/Foundation/NSDictionary+LTxJSON.m"; sourceTree = "<group>"; };
-		62059ECA1D6AF3C8D18E91CFFD696143 /* NSDate+LTxExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+LTxExtension.h"; path = "LTxCategories/Foundation/NSDate+LTxExtension.h"; sourceTree = "<group>"; };
-		650C8B3157CCCAEE10B5D3C907F0E0D0 /* NSUserDefaults+LTxExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+LTxExtension.h"; path = "LTxCategories/Foundation/NSUserDefaults+LTxExtension.h"; sourceTree = "<group>"; };
-		68E5F3ED5C1A3B00CF8245201FF5F4B7 /* UIDevice+LTxHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+LTxHardware.m"; path = "LTxCategories/UIKit/UIDevice+LTxHardware.m"; sourceTree = "<group>"; };
-		6A6257745AEF2A546BC16F0DB7AE7A60 /* NSDate+LTxExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+LTxExtension.m"; path = "LTxCategories/Foundation/NSDate+LTxExtension.m"; sourceTree = "<group>"; };
-		6BAED9618BF81DA6BFE40EE2227FF758 /* UIImage+LTxColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LTxColor.m"; path = "LTxCategories/UIKit/UIImage+LTxColor.m"; sourceTree = "<group>"; };
-		6EC3E0F61F0575A82F8C2F837303069F /* UIButton+LTxBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LTxBadge.h"; path = "LTxCategories/UIKit/UIButton+LTxBadge.h"; sourceTree = "<group>"; };
-		74D0EB09D2CEE6378CAD725FF5CAAAA0 /* NSString+LTxVerification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LTxVerification.h"; path = "LTxCategories/Foundation/NSString+LTxVerification.h"; sourceTree = "<group>"; };
-		7558FFB69A644FE6DB78AAA5B643BE70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF1A436A6CB8CCFEDBFBB9EC433DF4B /* UINavigationBar+LTxAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+LTxAwesome.h"; path = "LTxCategories/UIKit/UINavigationBar+LTxAwesome.h"; sourceTree = "<group>"; };
+		57B58C02B2730327CF70A3B7721F15B0 /* UIView+LTxConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxConstraint.m"; path = "LTxCategories/UIKit/UIView+LTxConstraint.m"; sourceTree = "<group>"; };
+		63F26A4B80E8502EB9B649CB0EB7B6F3 /* UIButton+LTxLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LTxLoading.h"; path = "LTxCategories/UIKit/UIButton+LTxLoading.h"; sourceTree = "<group>"; };
+		64912A71A3821B6440BAC4BCC787F09B /* LTxCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LTxCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66489DB1988DCC02A1FA2FB8E51B2ADF /* UIImage+LTxGIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LTxGIF.m"; path = "LTxCategories/UIKit/UIImage+LTxGIF.m"; sourceTree = "<group>"; };
+		678C93DFDE722BB73FC7E8A433E2338F /* UITextView+LTxPlaceHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+LTxPlaceHolder.m"; path = "LTxCategories/UIKit/UITextView+LTxPlaceHolder.m"; sourceTree = "<group>"; };
+		6DFDEB4583706567277CE03C3AD79B16 /* UIImage+LTxColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LTxColor.m"; path = "LTxCategories/UIKit/UIImage+LTxColor.m"; sourceTree = "<group>"; };
+		6EACEB2EB60B2B0C90F6DD143DD87823 /* UIDevice+LTxHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+LTxHardware.h"; path = "LTxCategories/UIKit/UIDevice+LTxHardware.h"; sourceTree = "<group>"; };
+		76AA99188A1732AE8E90AE26720302DF /* UINavigationBar+LTxAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+LTxAwesome.m"; path = "LTxCategories/UIKit/UINavigationBar+LTxAwesome.m"; sourceTree = "<group>"; };
 		78346D9EDE3DE0CFE3A955E31C8C73C5 /* Pods-LTxCategoriesDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTxCategoriesDemo-umbrella.h"; sourceTree = "<group>"; };
-		7C56FF9C4709785742CF45180537CF49 /* UIView+LTxScreenshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxScreenshot.m"; path = "LTxCategories/UIKit/UIView+LTxScreenshot.m"; sourceTree = "<group>"; };
-		8136D2817F0FBCE76E18EE81C5D58AD0 /* NSString+LTxHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LTxHash.m"; path = "LTxCategories/Foundation/NSString+LTxHash.m"; sourceTree = "<group>"; };
-		83D39E694A5C834CB2904FDCB1576510 /* UIButton+LTxLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LTxLoading.h"; path = "LTxCategories/UIKit/UIButton+LTxLoading.h"; sourceTree = "<group>"; };
-		8683D9C09C1404835CF6058E42FEE6E6 /* LTxCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTxCategories.h; path = LTxCategories/LTxCategories.h; sourceTree = "<group>"; };
+		7AE0A3D482A3BDE4D05EA324DE5C1040 /* NSString+LTxVerification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LTxVerification.h"; path = "LTxCategories/Foundation/NSString+LTxVerification.h"; sourceTree = "<group>"; };
+		7DE9A3495DB35538B108BD221CE58C7A /* LTxCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxCategories-prefix.pch"; sourceTree = "<group>"; };
+		89B72FAF2AC803EA9A1CAE17C878F57F /* LTxCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTxCategories-dummy.m"; sourceTree = "<group>"; };
+		8C3D7FBBA75F157069FCB9B361695682 /* UIView+LTxToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxToast.h"; path = "LTxCategories/UIKit/UIView+LTxToast.h"; sourceTree = "<group>"; };
+		8D25BFF30AC35984DF92440E7B6DE78D /* UINavigationItem+LTxLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+LTxLoading.h"; path = "LTxCategories/UIKit/UINavigationItem+LTxLoading.h"; sourceTree = "<group>"; };
+		8D5D4B1E66570889EC1CC888A1A46ECD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D76DDBC384F213A112FC82D1058CAE4 /* UIButton+LTxLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LTxLoading.m"; path = "LTxCategories/UIKit/UIButton+LTxLoading.m"; sourceTree = "<group>"; };
+		8E0EF9A6F328FF58F1DCCEDD7226805D /* LTxCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxCategories-umbrella.h"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9231A947B6C374EC8460A00DD497404C /* UIButton+LTxImagePosition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LTxImagePosition.m"; path = "LTxCategories/UIKit/UIButton+LTxImagePosition.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96F8C7BF3DC9FE75E6BA1D8398E037E0 /* UIButton+LTxImagePosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LTxImagePosition.h"; path = "LTxCategories/UIKit/UIButton+LTxImagePosition.h"; sourceTree = "<group>"; };
-		9704967236C15F5AE55523EABE243654 /* UIButton+LTxBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LTxBadge.m"; path = "LTxCategories/UIKit/UIButton+LTxBadge.m"; sourceTree = "<group>"; };
-		9AE2A01A9114444AF628B5A509673D54 /* LTxCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxCategories-prefix.pch"; sourceTree = "<group>"; };
-		9B9BA833C51D89D1FB1DEA7F00B5DE4E /* UINavigationItem+LTxLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+LTxLoading.h"; path = "LTxCategories/UIKit/UINavigationItem+LTxLoading.h"; sourceTree = "<group>"; };
-		9C75CC53D8B32EC207EAF443BFFCFEAF /* UITextView+LTxPlaceHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+LTxPlaceHolder.h"; path = "LTxCategories/UIKit/UITextView+LTxPlaceHolder.h"; sourceTree = "<group>"; };
-		9F7B138DA5BF255B2DC455498DBAD041 /* UIApplication+LTxNetworkActivityIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+LTxNetworkActivityIndicator.m"; path = "LTxCategories/UIKit/UIApplication+LTxNetworkActivityIndicator.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B8A37CA887F0E93D174A1BACF8019AA /* NSString+LTxExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LTxExtension.m"; path = "LTxCategories/Foundation/NSString+LTxExtension.m"; sourceTree = "<group>"; };
+		9DB343BB1BF93E68C5CC90BDAB5F0C6A /* UITextView+LTxPlaceHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+LTxPlaceHolder.h"; path = "LTxCategories/UIKit/UITextView+LTxPlaceHolder.h"; sourceTree = "<group>"; };
+		9FF9A73B9F65A7A3462AC9080DF8DF93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A2286E2BFDED38B2B29F3A09DB2607FC /* LTxCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTxCategories.h; path = LTxCategories/LTxCategories.h; sourceTree = "<group>"; };
 		A687FF2882208EDB6CCEA253E56569EC /* Pods-LTxCategoriesDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTxCategoriesDemo-frameworks.sh"; sourceTree = "<group>"; };
-		AB8EC25DAB405583BB8851E8EB905ABD /* UIView+LTxToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxToast.h"; path = "LTxCategories/UIKit/UIView+LTxToast.h"; sourceTree = "<group>"; };
+		A8DFB5122EE068E8BD62DC279DFF76DC /* UIApplication+LTxNetworkActivityIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+LTxNetworkActivityIndicator.h"; path = "LTxCategories/UIKit/UIApplication+LTxNetworkActivityIndicator.h"; sourceTree = "<group>"; };
+		A903BA4927A6ED9F1BE1A10B9DAF036B /* UIButton+LTxImagePosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LTxImagePosition.h"; path = "LTxCategories/UIKit/UIButton+LTxImagePosition.h"; sourceTree = "<group>"; };
+		A9D72E85346734E3D9D0EE7600617D25 /* NSDictionary+LTxJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LTxJSON.h"; path = "LTxCategories/Foundation/NSDictionary+LTxJSON.h"; sourceTree = "<group>"; };
+		AB3733A73A123743A41FE8E8298ED101 /* NSDictionary+LTxJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LTxJSON.m"; path = "LTxCategories/Foundation/NSDictionary+LTxJSON.m"; sourceTree = "<group>"; };
+		AD78A08B013871E6DCB71B2AD0467F2E /* UIColor+LTxHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LTxHex.h"; path = "LTxCategories/UIKit/UIColor+LTxHex.h"; sourceTree = "<group>"; };
 		AEF8D3472085EA28EA336C2EF410780B /* Pods-LTxCategoriesDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTxCategoriesDemo-dummy.m"; sourceTree = "<group>"; };
-		B0EBB03832327D32D58CA7F981CFB70A /* LTxCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxCategories-umbrella.h"; sourceTree = "<group>"; };
-		B4FD6DFE790ACFDF0F5EEABB2FDE449A /* UIImage+LTxColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LTxColor.h"; path = "LTxCategories/UIKit/UIImage+LTxColor.h"; sourceTree = "<group>"; };
-		B658C427296110492ADF20105177F7A6 /* NSString+LTxVerification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LTxVerification.m"; path = "LTxCategories/Foundation/NSString+LTxVerification.m"; sourceTree = "<group>"; };
-		B669190FBB59C3AEF76D4F90C4C4F97E /* LTxCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LTxCategories.modulemap; sourceTree = "<group>"; };
-		BB2C351E3D6ACEE166B974BAC46089C9 /* LTxCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTxCategories-dummy.m"; sourceTree = "<group>"; };
-		BBC16AB46C5E745F3BA5B315068D171F /* UIView+LTxConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxConstraint.m"; path = "LTxCategories/UIKit/UIView+LTxConstraint.m"; sourceTree = "<group>"; };
+		B122FF2C980F566A31446F7FB111F784 /* UIView+LTxToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxToast.m"; path = "LTxCategories/UIKit/UIView+LTxToast.m"; sourceTree = "<group>"; };
+		B208F35186E5531475126D3C99D42552 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B3525D773098254B20DCE1076905E3A8 /* NSString+LTxExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LTxExtension.h"; path = "LTxCategories/Foundation/NSString+LTxExtension.h"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C0BCAA95852741A96F520271509ED88D /* UINavigationBar+LTxAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+LTxAwesome.h"; path = "LTxCategories/UIKit/UINavigationBar+LTxAwesome.h"; sourceTree = "<group>"; };
-		C3EF7ACA1A2E8A9E5B70C87A19351DF2 /* LTxCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTxCategories.xcconfig; sourceTree = "<group>"; };
-		D0FD27B385057C54DD5104CE617CB022 /* NSDictionary+LTxJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LTxJSON.h"; path = "LTxCategories/Foundation/NSDictionary+LTxJSON.h"; sourceTree = "<group>"; };
+		C1A25BF42CC8046B9F16AF3DC23883FA /* LTxCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LTxCategories.modulemap; sourceTree = "<group>"; };
+		C96BC8E653363F0787CD6CDED476AFE7 /* UIImage+LTxColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LTxColor.h"; path = "LTxCategories/UIKit/UIImage+LTxColor.h"; sourceTree = "<group>"; };
+		C9894CEF39AA2AC0E8CA3CF7EDF3C20D /* UIView+LTxConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxConstraint.h"; path = "LTxCategories/UIKit/UIView+LTxConstraint.h"; sourceTree = "<group>"; };
+		CD68FC57AE3F097A4D8844CBA4324138 /* UIView+LTxCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxCorner.m"; path = "LTxCategories/UIKit/UIView+LTxCorner.m"; sourceTree = "<group>"; };
 		D18149B67C650A0AD0C77F43F65A1442 /* Pods-LTxCategoriesDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTxCategoriesDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		DC95D884E30852477E17CDE241C623EC /* UIView+LTxConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxConstraint.h"; path = "LTxCategories/UIKit/UIView+LTxConstraint.h"; sourceTree = "<group>"; };
-		DD935E6619B68912195B15DACE8C9165 /* UIButton+LTxLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LTxLoading.m"; path = "LTxCategories/UIKit/UIButton+LTxLoading.m"; sourceTree = "<group>"; };
-		DFB4D1B8A535153A621DB82D76CEB872 /* UIColor+LTxHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LTxHex.m"; path = "LTxCategories/UIKit/UIColor+LTxHex.m"; sourceTree = "<group>"; };
-		E0B193D6E262D270591C6AFFA14D4359 /* UIView+LTxToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxToast.m"; path = "LTxCategories/UIKit/UIView+LTxToast.m"; sourceTree = "<group>"; };
+		DA8ACD790E9D89EBDD698B6FCF65F1BA /* NSString+LTxVerification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LTxVerification.m"; path = "LTxCategories/Foundation/NSString+LTxVerification.m"; sourceTree = "<group>"; };
 		E2BD3C028C765869C5E8DFF887B8AC75 /* Pods-LTxCategoriesDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LTxCategoriesDemo.modulemap"; sourceTree = "<group>"; };
 		E30B9EA85403019D4362F9FE99A12636 /* Pods-LTxCategoriesDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTxCategoriesDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F0B8D73031DE7A5932D90492A941EEE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F4713B8405ECA4E59BBB977E6DB7FD0E /* NSString+LTxExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LTxExtension.h"; path = "LTxCategories/Foundation/NSString+LTxExtension.h"; sourceTree = "<group>"; };
+		E40BE8F0BA4F133468014FEC0FA8B6EF /* UIView+LTxNib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LTxNib.h"; path = "LTxCategories/UIKit/UIView+LTxNib.h"; sourceTree = "<group>"; };
+		EEC030A5C14189729B6C72E03D79A853 /* UIButton+LTxImagePosition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LTxImagePosition.m"; path = "LTxCategories/UIKit/UIButton+LTxImagePosition.m"; sourceTree = "<group>"; };
+		F31EF6B028ECB896DF549EECBF14C6D1 /* UIDevice+LTxHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+LTxHardware.m"; path = "LTxCategories/UIKit/UIDevice+LTxHardware.m"; sourceTree = "<group>"; };
 		F4C342780CFAD6C232B2E7F922AEAF2B /* Pods-LTxCategoriesDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTxCategoriesDemo-resources.sh"; sourceTree = "<group>"; };
-		F597FB3647DB005D2C594ADF47A0400F /* UIImage+LTxGIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LTxGIF.m"; path = "LTxCategories/UIKit/UIImage+LTxGIF.m"; sourceTree = "<group>"; };
 		F8CFAB382357A063C3DB985A3EF445BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F94C2C871735B3F247852A168BA48119 /* UIView+LTxNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LTxNib.m"; path = "LTxCategories/UIKit/UIView+LTxNib.m"; sourceTree = "<group>"; };
+		FA7F824E4ADD3F6B6EB9E2EE2DD2CED2 /* NSDate+LTxExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+LTxExtension.h"; path = "LTxCategories/Foundation/NSDate+LTxExtension.h"; sourceTree = "<group>"; };
+		FAB1F131AB5E451949B85CD1AFEEBB47 /* UIImage+LTxGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LTxGIF.h"; path = "LTxCategories/UIKit/UIImage+LTxGIF.h"; sourceTree = "<group>"; };
 		FB11A7CED8B86D5CFCEB87F71FDCDCDF /* Pods-LTxCategoriesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTxCategoriesDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,12 +156,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B41C5C03FE7251F3F1F3DCCB0E477B5A /* Frameworks */ = {
+		E6CE63EBE4F6A339FF176B2CB8F26D41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6152A1CE1DC4B78367CBC62023C1F44D /* Foundation.framework in Frameworks */,
-				6AF419806740A138F32F475B5B47606A /* UIKit.framework in Frameworks */,
+				AE434DC3CF011D57B175681F90A24F55 /* Foundation.framework in Frameworks */,
+				1494BD187EA2C9785D7718C0E1ED1D2A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,22 +194,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BF000D53A8C3D834F92DC03DB06134F /* Pod */ = {
+		2E6A56AEF5FD1B97F595A61A72290CF8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				547A1C7525E25673E21777D03C684534 /* LICENSE */,
-				27C465DC413BB50DCD973AB4A2B52E95 /* LTxCategories.podspec */,
-				F0B8D73031DE7A5932D90492A941EEE6 /* README.md */,
+				554AFE7BF7F09FA1D6BEEE3DE22AF124 /* LTxCategories */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		409CD4F67959C7738403BF6D96DFF0FA /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				8683D9C09C1404835CF6058E42FEE6E6 /* LTxCategories.h */,
-			);
-			name = Core;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -212,37 +210,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4DA65407119E5210832472884DE660C2 /* Foundation */ = {
+		554AFE7BF7F09FA1D6BEEE3DE22AF124 /* LTxCategories */ = {
 			isa = PBXGroup;
 			children = (
-				62059ECA1D6AF3C8D18E91CFFD696143 /* NSDate+LTxExtension.h */,
-				6A6257745AEF2A546BC16F0DB7AE7A60 /* NSDate+LTxExtension.m */,
-				D0FD27B385057C54DD5104CE617CB022 /* NSDictionary+LTxJSON.h */,
-				5DDBE3E7AA2D509098FFF57D3947E4A6 /* NSDictionary+LTxJSON.m */,
-				F4713B8405ECA4E59BBB977E6DB7FD0E /* NSString+LTxExtension.h */,
-				198366C754B1799A144692E1877A50E6 /* NSString+LTxExtension.m */,
-				0B97D42B863DD3E56495C598C0AD25D4 /* NSString+LTxHash.h */,
-				8136D2817F0FBCE76E18EE81C5D58AD0 /* NSString+LTxHash.m */,
-				74D0EB09D2CEE6378CAD725FF5CAAAA0 /* NSString+LTxVerification.h */,
-				B658C427296110492ADF20105177F7A6 /* NSString+LTxVerification.m */,
-				650C8B3157CCCAEE10B5D3C907F0E0D0 /* NSUserDefaults+LTxExtension.h */,
-				32563CC62668B0DDCA87B482132ED6AB /* NSUserDefaults+LTxExtension.m */,
+				9F094D74A5C9A2B546D2E3CB041A2138 /* Common */,
+				8B463FAFB29EC06AC6B880E09ED69AD4 /* Core */,
+				5D71785FBACC3F48EAE24A5E44B17F73 /* Foundation */,
+				9EB6A3175A03E7E3AC13D40051DE65E2 /* Pod */,
+				56401299A0BE5FE17FCCEF55680FEB53 /* Support Files */,
+				EF0AEBA13D9BF70C322FAF877F717B07 /* UIKit */,
 			);
-			name = Foundation;
+			name = LTxCategories;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		67E47064A65BB4CED2E2B2A6167BEC14 /* Support Files */ = {
+		56401299A0BE5FE17FCCEF55680FEB53 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7558FFB69A644FE6DB78AAA5B643BE70 /* Info.plist */,
-				B669190FBB59C3AEF76D4F90C4C4F97E /* LTxCategories.modulemap */,
-				C3EF7ACA1A2E8A9E5B70C87A19351DF2 /* LTxCategories.xcconfig */,
-				BB2C351E3D6ACEE166B974BAC46089C9 /* LTxCategories-dummy.m */,
-				9AE2A01A9114444AF628B5A509673D54 /* LTxCategories-prefix.pch */,
-				B0EBB03832327D32D58CA7F981CFB70A /* LTxCategories-umbrella.h */,
+				8D5D4B1E66570889EC1CC888A1A46ECD /* Info.plist */,
+				C1A25BF42CC8046B9F16AF3DC23883FA /* LTxCategories.modulemap */,
+				073FE0484E12C66C347CB607B0A19FD4 /* LTxCategories.xcconfig */,
+				89B72FAF2AC803EA9A1CAE17C878F57F /* LTxCategories-dummy.m */,
+				7DE9A3495DB35538B108BD221CE58C7A /* LTxCategories-prefix.pch */,
+				8E0EF9A6F328FF58F1DCCEDD7226805D /* LTxCategories-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "LTxCategoriesDemo/Pods/Target Support Files/LTxCategories";
+			sourceTree = "<group>";
+		};
+		5D71785FBACC3F48EAE24A5E44B17F73 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F824E4ADD3F6B6EB9E2EE2DD2CED2 /* NSDate+LTxExtension.h */,
+				1B080D920AB271C9A33CF1B0B412D2EB /* NSDate+LTxExtension.m */,
+				A9D72E85346734E3D9D0EE7600617D25 /* NSDictionary+LTxJSON.h */,
+				AB3733A73A123743A41FE8E8298ED101 /* NSDictionary+LTxJSON.m */,
+				B3525D773098254B20DCE1076905E3A8 /* NSString+LTxExtension.h */,
+				9B8A37CA887F0E93D174A1BACF8019AA /* NSString+LTxExtension.m */,
+				126D2DCC2B252982EC103931C4411268 /* NSString+LTxHash.h */,
+				3E2869EB0DF1D55AAD189367F198AFDE /* NSString+LTxHash.m */,
+				7AE0A3D482A3BDE4D05EA324DE5C1040 /* NSString+LTxVerification.h */,
+				DA8ACD790E9D89EBDD698B6FCF65F1BA /* NSString+LTxVerification.m */,
+				2B3EB89383510128BE7B097B3A2F0095 /* NSUserDefaults+LTxExtension.h */,
+				121A4208951196BDAF342310F5250CB7 /* NSUserDefaults+LTxExtension.m */,
+			);
+			name = Foundation;
 			sourceTree = "<group>";
 		};
 		747FAD991E1F1698C57AFC5C0711CD8B /* Pods-LTxCategoriesDemo */ = {
@@ -267,74 +279,114 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B1309DF3906130B0E31645989284F5CB /* Development Pods */,
+				2E6A56AEF5FD1B97F595A61A72290CF8 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				1A18D6815C9F77DDCD12143FEE90B449 /* Products */,
 				0CD2F7B99A60FDF69747E3659229CC1E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8275382BCD821B7AD3C337208AFF0C96 /* LTxCategories */ = {
+		8B463FAFB29EC06AC6B880E09ED69AD4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				409CD4F67959C7738403BF6D96DFF0FA /* Core */,
-				4DA65407119E5210832472884DE660C2 /* Foundation */,
-				2BF000D53A8C3D834F92DC03DB06134F /* Pod */,
-				67E47064A65BB4CED2E2B2A6167BEC14 /* Support Files */,
-				AE363D6C7B2FA56063324D0F97A49661 /* UIKit */,
+				A2286E2BFDED38B2B29F3A09DB2607FC /* LTxCategories.h */,
 			);
-			name = LTxCategories;
-			path = ../..;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		AE363D6C7B2FA56063324D0F97A49661 /* UIKit */ = {
+		9EB6A3175A03E7E3AC13D40051DE65E2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2B060713EB02614451C2E812E56C1115 /* UIApplication+LTxNetworkActivityIndicator.h */,
-				9F7B138DA5BF255B2DC455498DBAD041 /* UIApplication+LTxNetworkActivityIndicator.m */,
-				6EC3E0F61F0575A82F8C2F837303069F /* UIButton+LTxBadge.h */,
-				9704967236C15F5AE55523EABE243654 /* UIButton+LTxBadge.m */,
-				96F8C7BF3DC9FE75E6BA1D8398E037E0 /* UIButton+LTxImagePosition.h */,
-				9231A947B6C374EC8460A00DD497404C /* UIButton+LTxImagePosition.m */,
-				83D39E694A5C834CB2904FDCB1576510 /* UIButton+LTxLoading.h */,
-				DD935E6619B68912195B15DACE8C9165 /* UIButton+LTxLoading.m */,
-				04684765FF6D5FEEA18DFCEFE77AA89A /* UIColor+LTxHex.h */,
-				DFB4D1B8A535153A621DB82D76CEB872 /* UIColor+LTxHex.m */,
-				3A3C41C1DBD2BFE88CA8CD7F094DED8A /* UIDevice+LTxHardware.h */,
-				68E5F3ED5C1A3B00CF8245201FF5F4B7 /* UIDevice+LTxHardware.m */,
-				B4FD6DFE790ACFDF0F5EEABB2FDE449A /* UIImage+LTxColor.h */,
-				6BAED9618BF81DA6BFE40EE2227FF758 /* UIImage+LTxColor.m */,
-				37F1C6B49C9D23E4168744F85E658CCF /* UIImage+LTxGIF.h */,
-				F597FB3647DB005D2C594ADF47A0400F /* UIImage+LTxGIF.m */,
-				C0BCAA95852741A96F520271509ED88D /* UINavigationBar+LTxAwesome.h */,
-				40FF2DFF5F03EF47031C8077E095DBBB /* UINavigationBar+LTxAwesome.m */,
-				9B9BA833C51D89D1FB1DEA7F00B5DE4E /* UINavigationItem+LTxLoading.h */,
-				404F6FFB4DE949163BA23733D60C941F /* UINavigationItem+LTxLoading.m */,
-				9C75CC53D8B32EC207EAF443BFFCFEAF /* UITextView+LTxPlaceHolder.h */,
-				29184E5854F8A799FB75360F411E1710 /* UITextView+LTxPlaceHolder.m */,
-				DC95D884E30852477E17CDE241C623EC /* UIView+LTxConstraint.h */,
-				BBC16AB46C5E745F3BA5B315068D171F /* UIView+LTxConstraint.m */,
-				0AC91FB48A2D0629E8B5B51244181029 /* UIView+LTxNib.h */,
-				F94C2C871735B3F247852A168BA48119 /* UIView+LTxNib.m */,
-				04BC489D36608C3A317E104D0D9A5EBC /* UIView+LTxScreenshot.h */,
-				7C56FF9C4709785742CF45180537CF49 /* UIView+LTxScreenshot.m */,
-				AB8EC25DAB405583BB8851E8EB905ABD /* UIView+LTxToast.h */,
-				E0B193D6E262D270591C6AFFA14D4359 /* UIView+LTxToast.m */,
+				9FF9A73B9F65A7A3462AC9080DF8DF93 /* LICENSE */,
+				64912A71A3821B6440BAC4BCC787F09B /* LTxCategories.podspec */,
+				B208F35186E5531475126D3C99D42552 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9F094D74A5C9A2B546D2E3CB041A2138 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				098B6DCE2C785AB6492C91B6607A8AAC /* LTxCorner.h */,
+				441665DEFC101933A97DCD3A9C7C357C /* LTxCorner.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		EF0AEBA13D9BF70C322FAF877F717B07 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A8DFB5122EE068E8BD62DC279DFF76DC /* UIApplication+LTxNetworkActivityIndicator.h */,
+				18A9A7D30059634304E0522820E3B912 /* UIApplication+LTxNetworkActivityIndicator.m */,
+				2ED020ECFDE4BDDAC77A2C21121E281A /* UIButton+LTxBadge.h */,
+				26E2FD4D8CF1186318B7FE9C98F7224E /* UIButton+LTxBadge.m */,
+				A903BA4927A6ED9F1BE1A10B9DAF036B /* UIButton+LTxImagePosition.h */,
+				EEC030A5C14189729B6C72E03D79A853 /* UIButton+LTxImagePosition.m */,
+				63F26A4B80E8502EB9B649CB0EB7B6F3 /* UIButton+LTxLoading.h */,
+				8D76DDBC384F213A112FC82D1058CAE4 /* UIButton+LTxLoading.m */,
+				AD78A08B013871E6DCB71B2AD0467F2E /* UIColor+LTxHex.h */,
+				002630D08DDE90C63DCEB7C96B6445FF /* UIColor+LTxHex.m */,
+				6EACEB2EB60B2B0C90F6DD143DD87823 /* UIDevice+LTxHardware.h */,
+				F31EF6B028ECB896DF549EECBF14C6D1 /* UIDevice+LTxHardware.m */,
+				C96BC8E653363F0787CD6CDED476AFE7 /* UIImage+LTxColor.h */,
+				6DFDEB4583706567277CE03C3AD79B16 /* UIImage+LTxColor.m */,
+				FAB1F131AB5E451949B85CD1AFEEBB47 /* UIImage+LTxGIF.h */,
+				66489DB1988DCC02A1FA2FB8E51B2ADF /* UIImage+LTxGIF.m */,
+				4DF1A436A6CB8CCFEDBFBB9EC433DF4B /* UINavigationBar+LTxAwesome.h */,
+				76AA99188A1732AE8E90AE26720302DF /* UINavigationBar+LTxAwesome.m */,
+				8D25BFF30AC35984DF92440E7B6DE78D /* UINavigationItem+LTxLoading.h */,
+				038F40C221D34CAE7798D25B62DD181D /* UINavigationItem+LTxLoading.m */,
+				9DB343BB1BF93E68C5CC90BDAB5F0C6A /* UITextView+LTxPlaceHolder.h */,
+				678C93DFDE722BB73FC7E8A433E2338F /* UITextView+LTxPlaceHolder.m */,
+				C9894CEF39AA2AC0E8CA3CF7EDF3C20D /* UIView+LTxConstraint.h */,
+				57B58C02B2730327CF70A3B7721F15B0 /* UIView+LTxConstraint.m */,
+				248F01C02A34CFDE6DC412BD23649455 /* UIView+LTxCorner.h */,
+				CD68FC57AE3F097A4D8844CBA4324138 /* UIView+LTxCorner.m */,
+				E40BE8F0BA4F133468014FEC0FA8B6EF /* UIView+LTxNib.h */,
+				1A05B712F6D3CB5EEFB3EF9DF4FECBCF /* UIView+LTxNib.m */,
+				202EDD279FE68A01A8562290FC00EE95 /* UIView+LTxScreenshot.h */,
+				2595BE4174938CB356E8F66664D205F1 /* UIView+LTxScreenshot.m */,
+				8C3D7FBBA75F157069FCB9B361695682 /* UIView+LTxToast.h */,
+				B122FF2C980F566A31446F7FB111F784 /* UIView+LTxToast.m */,
 			);
 			name = UIKit;
-			sourceTree = "<group>";
-		};
-		B1309DF3906130B0E31645989284F5CB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8275382BCD821B7AD3C337208AFF0C96 /* LTxCategories */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		43A41B692DB8AF09BBE16A8AA3FB609A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F8B9BF94AABAAC0FB6E8839A1AAD4C /* LTxCategories-umbrella.h in Headers */,
+				32381FC26F375012835337B276D40274 /* LTxCategories.h in Headers */,
+				3B7C3D834A75F07716EB210957F916CD /* LTxCorner.h in Headers */,
+				8967483C1E982783B95E9E3C7064DA33 /* NSDate+LTxExtension.h in Headers */,
+				BF2E9E93FBC04124527D0928234A73E7 /* NSDictionary+LTxJSON.h in Headers */,
+				D4D49EE4346909C425156D47E4360C83 /* NSString+LTxExtension.h in Headers */,
+				BE7148DEAEADEACD1BD13B50CE3C4D26 /* NSString+LTxHash.h in Headers */,
+				23465FC3F38A9896574194FDC4804B97 /* NSString+LTxVerification.h in Headers */,
+				CA21B3B6BBE185CBE9CF35CB786C60B8 /* NSUserDefaults+LTxExtension.h in Headers */,
+				9D6FB376D416324DF2E51D019927FE94 /* UIApplication+LTxNetworkActivityIndicator.h in Headers */,
+				ED99674242DF0694317FE6A88E0028D7 /* UIButton+LTxBadge.h in Headers */,
+				0A3FA7DF113AA9AFC4FFFBE485302484 /* UIButton+LTxImagePosition.h in Headers */,
+				6F4CD38199C24C94F424353A4EB1EA92 /* UIButton+LTxLoading.h in Headers */,
+				F91B1E971B39DF87B4DA366C48679752 /* UIColor+LTxHex.h in Headers */,
+				06CF5DF98559524D062801203BF930C7 /* UIDevice+LTxHardware.h in Headers */,
+				0665F28D24CAFFD00219CB1B91133302 /* UIImage+LTxColor.h in Headers */,
+				D06B87787E347659D7DD839183A3A1FD /* UIImage+LTxGIF.h in Headers */,
+				F3AF0D2D7FBD219387E5D408B7EE233B /* UINavigationBar+LTxAwesome.h in Headers */,
+				E90353D7CDD21FC14515EB8305CB7B3D /* UINavigationItem+LTxLoading.h in Headers */,
+				35CB2CCC3B4E279E099DA6C5A1BDA87F /* UITextView+LTxPlaceHolder.h in Headers */,
+				6C66C3BD876679F04CE34FAAB5A30E33 /* UIView+LTxConstraint.h in Headers */,
+				AE07A3342CF9DDD3EC343604E834B85A /* UIView+LTxCorner.h in Headers */,
+				4F3A0F6D843D3918CD4A5D64E4342395 /* UIView+LTxNib.h in Headers */,
+				384832E9D04CA175BE90D18F13EEAEF1 /* UIView+LTxScreenshot.h in Headers */,
+				6A666477ED54525B5B4865A211D69FB6 /* UIView+LTxToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D08202EF83111B5BA1846F6D654B5A43 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,39 +395,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7B9D8B84F620B45F60855C6B750C43F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B2902F0075E7A596E673E6C8E614513 /* LTxCategories-umbrella.h in Headers */,
-				0C864C2FE10569BAE56E4EC0F9A56FB5 /* LTxCategories.h in Headers */,
-				DBA0AEF078DF19562A42536788092078 /* NSDate+LTxExtension.h in Headers */,
-				BC0463E28EB1A91F63EF09322F38FF32 /* NSDictionary+LTxJSON.h in Headers */,
-				17B0666C6FBC8C69D4827B63CC4B6866 /* NSString+LTxExtension.h in Headers */,
-				F08CFBC9CA4EB5431FA0135EDD8802EB /* NSString+LTxHash.h in Headers */,
-				9605DC49150F180E8222C2EF219D3569 /* NSString+LTxVerification.h in Headers */,
-				2506F1DDC39C11B4AB94D2167265B8F4 /* NSUserDefaults+LTxExtension.h in Headers */,
-				36B9BA27104303FFF3907AAB49376444 /* UIApplication+LTxNetworkActivityIndicator.h in Headers */,
-				F20AF0F846A423ACE7EB1FD41D8B2925 /* UIButton+LTxBadge.h in Headers */,
-				29D94E50ACE8EDB3682D7048DED4E53F /* UIButton+LTxImagePosition.h in Headers */,
-				7169A0A98314436EF976EC46CC1F50A1 /* UIButton+LTxLoading.h in Headers */,
-				6A555B0372A757AA91BF7FF76D54E515 /* UIColor+LTxHex.h in Headers */,
-				F6B6E498426307D21E65D5E6EE647635 /* UIDevice+LTxHardware.h in Headers */,
-				B2108C6C66A51441A21BC428B124B8F7 /* UIImage+LTxColor.h in Headers */,
-				E042463D077C4F19DBD45BF1279568A6 /* UIImage+LTxGIF.h in Headers */,
-				DDEA1EECBBE22872D1D330BD574DAAF4 /* UINavigationBar+LTxAwesome.h in Headers */,
-				9275EE9B46FF14B484B4AA7D7BBB3C03 /* UINavigationItem+LTxLoading.h in Headers */,
-				4FA1D312ACBD52546DBDA166EDCB5521 /* UITextView+LTxPlaceHolder.h in Headers */,
-				755E5D96BE8C4F81BA6187D7CC4B6D2D /* UIView+LTxConstraint.h in Headers */,
-				46E3BFBC79126D34835D7E1065797E4C /* UIView+LTxNib.h in Headers */,
-				58CD75D02A2DE670ECD54BDFF556E77B /* UIView+LTxScreenshot.h in Headers */,
-				DAFBD97B0429B2128F8543699751B3C1 /* UIView+LTxToast.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2300186862995E663D732EB61BD55B56 /* LTxCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBF3F9365AF875E6079A7B1509F1C88 /* Build configuration list for PBXNativeTarget "LTxCategories" */;
+			buildPhases = (
+				9DD70684B9DFF6DADE447F9377FEB419 /* Sources */,
+				E6CE63EBE4F6A339FF176B2CB8F26D41 /* Frameworks */,
+				43A41B692DB8AF09BBE16A8AA3FB609A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTxCategories;
+			productName = LTxCategories;
+			productReference = 29E123B7CB96F611C11D7AD7BEA84B6E /* LTxCategories.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		CB85B75A7F1F49CA6C816C596287EEDE /* Pods-LTxCategoriesDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 965CDA27E22C76996F1CA79B304B1DD8 /* Build configuration list for PBXNativeTarget "Pods-LTxCategoriesDemo" */;
@@ -392,23 +431,6 @@
 			name = "Pods-LTxCategoriesDemo";
 			productName = "Pods-LTxCategoriesDemo";
 			productReference = 19BB02EEE2602C649D4E459A93E55511 /* Pods_LTxCategoriesDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F025AA1E518DED8DF2C4AFAA36E72E5C /* LTxCategories */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A64FB1E62CC4FE95A502E0353B095D3 /* Build configuration list for PBXNativeTarget "LTxCategories" */;
-			buildPhases = (
-				B468EE92F70E8C59E343855A202E9C57 /* Sources */,
-				B41C5C03FE7251F3F1F3DCCB0E477B5A /* Frameworks */,
-				F7B9D8B84F620B45F60855C6B750C43F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LTxCategories;
-			productName = LTxCategories;
-			productReference = 29E123B7CB96F611C11D7AD7BEA84B6E /* LTxCategories.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -432,7 +454,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F025AA1E518DED8DF2C4AFAA36E72E5C /* LTxCategories */,
+				2300186862995E663D732EB61BD55B56 /* LTxCategories */,
 				CB85B75A7F1F49CA6C816C596287EEDE /* Pods-LTxCategoriesDemo */,
 			);
 		};
@@ -447,32 +469,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B468EE92F70E8C59E343855A202E9C57 /* Sources */ = {
+		9DD70684B9DFF6DADE447F9377FEB419 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4B0E87C2D5B4204FD37FE29771C17C /* LTxCategories-dummy.m in Sources */,
-				9C525EF221943E2F035AE092C9862103 /* NSDate+LTxExtension.m in Sources */,
-				82D327FC7E65685F2F8266030EC7917F /* NSDictionary+LTxJSON.m in Sources */,
-				40D1ED504BA5B6ECA37883FCC62E465E /* NSString+LTxExtension.m in Sources */,
-				D299659A6EB4779AE8D19F7A3236285D /* NSString+LTxHash.m in Sources */,
-				8F40007719E9DE9943E967F5C7AD5BE7 /* NSString+LTxVerification.m in Sources */,
-				B05755AB32BC4C80FA7C88AD898E1CD9 /* NSUserDefaults+LTxExtension.m in Sources */,
-				65499E1371666E2B83F9AD546D3AB589 /* UIApplication+LTxNetworkActivityIndicator.m in Sources */,
-				15FBCD3A05496011E2C8290A0D61E0B3 /* UIButton+LTxBadge.m in Sources */,
-				72C362787875D7326EB9732D0481FAB1 /* UIButton+LTxImagePosition.m in Sources */,
-				59DEB917D426AA2C7F0B082628C38EBA /* UIButton+LTxLoading.m in Sources */,
-				E0D8A3F573D0FFAE2FEBDEDBD8F031A8 /* UIColor+LTxHex.m in Sources */,
-				5C34DEC716B7A6966D12E8B41A19D903 /* UIDevice+LTxHardware.m in Sources */,
-				0544A4129209E73E37FC2001F6AC6256 /* UIImage+LTxColor.m in Sources */,
-				CE62D7E8695A3DFDDDF4FBEB7DAB14BF /* UIImage+LTxGIF.m in Sources */,
-				A02A67A778B197FC1A4E2A08D2AB6D4F /* UINavigationBar+LTxAwesome.m in Sources */,
-				2D476E7ED2700B46B73A3DD3371BC283 /* UINavigationItem+LTxLoading.m in Sources */,
-				C7EA9A2ECB5E0023C092D26BF723AA8D /* UITextView+LTxPlaceHolder.m in Sources */,
-				3102B443D3E2D5F8664C5A2A2737CFB2 /* UIView+LTxConstraint.m in Sources */,
-				BE3E4AE7602456CD59AFDFB21CB0846B /* UIView+LTxNib.m in Sources */,
-				9BD8DC1368A7F8853D4FE5B65BA99AAF /* UIView+LTxScreenshot.m in Sources */,
-				8A816CBA2222B15CF9EED5E851A67B20 /* UIView+LTxToast.m in Sources */,
+				095C319EA2EEE32EAD8F54645854D759 /* LTxCategories-dummy.m in Sources */,
+				5FD860F09ABE127F2FC914554B87C417 /* LTxCorner.m in Sources */,
+				F114D37F86B3EDB9ED24B6AD5E1F92D4 /* NSDate+LTxExtension.m in Sources */,
+				4901D3710240573A7AD68AF99B86400E /* NSDictionary+LTxJSON.m in Sources */,
+				C16292FB90465F785D4C28EECD441DBB /* NSString+LTxExtension.m in Sources */,
+				A7BC9C976D5F4E3F4A32FEF3D8E58EE3 /* NSString+LTxHash.m in Sources */,
+				F4DEEE6ACC859B720862D365418D0400 /* NSString+LTxVerification.m in Sources */,
+				794AE86FCAD615D019B550DEDACB45FD /* NSUserDefaults+LTxExtension.m in Sources */,
+				766BD5D82D89FF00FF966EFC052255EE /* UIApplication+LTxNetworkActivityIndicator.m in Sources */,
+				C9141E22456E00EFE9B892B8720676E7 /* UIButton+LTxBadge.m in Sources */,
+				70DA4212E521BD979672B7C12E1134CD /* UIButton+LTxImagePosition.m in Sources */,
+				D0D5CC0375D7F97EB4FA83E2FF8D006E /* UIButton+LTxLoading.m in Sources */,
+				475F64FEAA151EDB20B6CACDC7F7D9DD /* UIColor+LTxHex.m in Sources */,
+				2DDF44164271ACB0B4D1283B28CE61C9 /* UIDevice+LTxHardware.m in Sources */,
+				DE15A26FE8BC3844879A97FED42AF4ED /* UIImage+LTxColor.m in Sources */,
+				B9F165F7FA857AEDFB1B9FA999FEB62D /* UIImage+LTxGIF.m in Sources */,
+				E05C9F646BFEC2CF9AB7A63BCBA6EA3E /* UINavigationBar+LTxAwesome.m in Sources */,
+				B32738414838695E54903F8F8DF0E23E /* UINavigationItem+LTxLoading.m in Sources */,
+				AB217A6081CEAE38BA6D5C0041D30C5F /* UITextView+LTxPlaceHolder.m in Sources */,
+				68206771A92B83BEE6F251442ED32DC7 /* UIView+LTxConstraint.m in Sources */,
+				A79E7711525ECA0571A83470617421BB /* UIView+LTxCorner.m in Sources */,
+				6ECF0F33887ABB66983D34E6D6327B72 /* UIView+LTxNib.m in Sources */,
+				D36D30E601596B981D3D29CE1246863D /* UIView+LTxScreenshot.m in Sources */,
+				35990B3893ABB9B044D23714BFEE6FE4 /* UIView+LTxToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,12 +506,42 @@
 		2793B889D85C05A487D5C1F2D31644B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LTxCategories;
-			target = F025AA1E518DED8DF2C4AFAA36E72E5C /* LTxCategories */;
+			target = 2300186862995E663D732EB61BD55B56 /* LTxCategories */;
 			targetProxy = A922267B9B24DAE8739CEA14DBD4E9BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A56FAE7423E2497F0888153C88D74ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073FE0484E12C66C347CB607B0A19FD4 /* LTxCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LTxCategories/LTxCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTxCategories/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTxCategories/LTxCategories.modulemap";
+				PRODUCT_MODULE_NAME = LTxCategories;
+				PRODUCT_NAME = LTxCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -551,9 +605,9 @@
 			};
 			name = Debug;
 		};
-		8E76FFB145E6E7908AC062A4EFEEB784 /* Release */ = {
+		8525DA0FF7D35324AFB01CAC91613361 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3EF7ACA1A2E8A9E5B70C87A19351DF2 /* LTxCategories.xcconfig */;
+			baseConfigurationReference = 073FE0484E12C66C347CB607B0A19FD4 /* LTxCategories.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,11 +622,7 @@
 				INFOPLIST_FILE = "Target Support Files/LTxCategories/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LTxCategories/LTxCategories.modulemap";
 				PRODUCT_MODULE_NAME = LTxCategories;
 				PRODUCT_NAME = LTxCategories;
@@ -603,11 +653,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LTxCategoriesDemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LTxCategoriesDemo/Pods-LTxCategoriesDemo.modulemap";
 				OTHER_LDFLAGS = "";
@@ -617,40 +663,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C25EC95B5F3595DB826F720FF6C13C48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3EF7ACA1A2E8A9E5B70C87A19351DF2 /* LTxCategories.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LTxCategories/LTxCategories-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LTxCategories/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LTxCategories/LTxCategories.modulemap";
-				PRODUCT_MODULE_NAME = LTxCategories;
-				PRODUCT_NAME = LTxCategories;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -674,11 +686,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LTxCategoriesDemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LTxCategoriesDemo/Pods-LTxCategoriesDemo.modulemap";
 				OTHER_LDFLAGS = "";
@@ -765,11 +773,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A64FB1E62CC4FE95A502E0353B095D3 /* Build configuration list for PBXNativeTarget "LTxCategories" */ = {
+		4CBF3F9365AF875E6079A7B1509F1C88 /* Build configuration list for PBXNativeTarget "LTxCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C25EC95B5F3595DB826F720FF6C13C48 /* Debug */,
-				8E76FFB145E6E7908AC062A4EFEEB784 /* Release */,
+				0A56FAE7423E2497F0888153C88D74ED /* Debug */,
+				8525DA0FF7D35324AFB01CAC91613361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

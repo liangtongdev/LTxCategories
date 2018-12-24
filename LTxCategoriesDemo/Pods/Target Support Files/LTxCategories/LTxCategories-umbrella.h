@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LTxCorner.h"
 #import "LTxCategories.h"
 #import "NSDate+LTxExtension.h"
 #import "NSDictionary+LTxJSON.h"
@@ -22,6 +23,7 @@
 #import "UIButton+LTxImagePosition.h"
 #import "UIButton+LTxLoading.h"
 #import "UIColor+LTxHex.h"
+#import "UIControl+LTxCorner.h"
 #import "UIDevice+LTxHardware.h"
 #import "UIImage+LTxColor.h"
 #import "UIImage+LTxGIF.h"
@@ -29,6 +31,7 @@
 #import "UINavigationItem+LTxLoading.h"
 #import "UITextView+LTxPlaceHolder.h"
 #import "UIView+LTxConstraint.h"
+#import "UIView+LTxCorner.h"
 #import "UIView+LTxNib.h"
 #import "UIView+LTxScreenshot.h"
 #import "UIView+LTxToast.h"
