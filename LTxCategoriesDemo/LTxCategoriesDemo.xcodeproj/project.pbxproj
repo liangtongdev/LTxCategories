@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0532FA26646A7CEA38CB7451 /* Pods_LTxCategoriesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97F18FEBA8E0F9EF57ABE2 /* Pods_LTxCategoriesDemo.framework */; };
 		27E02439213E689C0004757B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E02438213E689C0004757B /* AppDelegate.m */; };
-		27E0243C213E689C0004757B /* LTxCornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0243B213E689C0004757B /* LTxCornerViewController.m */; };
+		27E0243C213E689C0004757B /* LTxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0243B213E689C0004757B /* LTxViewController.m */; };
 		27E0243F213E689C0004757B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E0243D213E689C0004757B /* Main.storyboard */; };
 		27E02441213E689D0004757B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E02440213E689D0004757B /* Assets.xcassets */; };
 		27E02444213E689D0004757B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E02442213E689D0004757B /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		27E02434213E689C0004757B /* LTxCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTxCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E02437213E689C0004757B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27E02438213E689C0004757B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		27E0243A213E689C0004757B /* LTxCornerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTxCornerViewController.h; sourceTree = "<group>"; };
-		27E0243B213E689C0004757B /* LTxCornerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTxCornerViewController.m; sourceTree = "<group>"; };
+		27E0243A213E689C0004757B /* LTxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTxViewController.h; sourceTree = "<group>"; };
+		27E0243B213E689C0004757B /* LTxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTxViewController.m; sourceTree = "<group>"; };
 		27E0243E213E689C0004757B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27E02440213E689D0004757B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E02443213E689D0004757B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 			children = (
 				27E02437213E689C0004757B /* AppDelegate.h */,
 				27E02438213E689C0004757B /* AppDelegate.m */,
-				27E0243A213E689C0004757B /* LTxCornerViewController.h */,
-				27E0243B213E689C0004757B /* LTxCornerViewController.m */,
+				27E0243A213E689C0004757B /* LTxViewController.h */,
+				27E0243B213E689C0004757B /* LTxViewController.m */,
 				27E0243D213E689C0004757B /* Main.storyboard */,
 				27E02440213E689D0004757B /* Assets.xcassets */,
 				27E02442213E689D0004757B /* LaunchScreen.storyboard */,
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E0243C213E689C0004757B /* LTxCornerViewController.m in Sources */,
+				27E0243C213E689C0004757B /* LTxViewController.m in Sources */,
 				27E02447213E689D0004757B /* main.m in Sources */,
 				27E02439213E689C0004757B /* AppDelegate.m in Sources */,
 			);

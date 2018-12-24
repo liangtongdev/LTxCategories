@@ -50,4 +50,4 @@
 
 ### 截图
 
-![](https://github.com/liangtongdev/LTxCategories/blob/master/screenshots/corner.png)
+![](https://github.com/liangtongdev/LTxCategories/blob/master/screenshots/demo1.png)

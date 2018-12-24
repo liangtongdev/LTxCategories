@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LTxCornerViewController : UIViewController
+@interface LTxViewController : UIViewController
 
 
 @end
