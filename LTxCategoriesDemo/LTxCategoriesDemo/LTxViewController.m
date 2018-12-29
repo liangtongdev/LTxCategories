@@ -29,6 +29,10 @@
 //animation
 @property (weak, nonatomic) IBOutlet UIButton *startAnimateBtn;
 @property (weak, nonatomic) IBOutlet UIButton *stopAnimateBtn;
+
+//行间距
+@property (weak, nonatomic) IBOutlet UILabel *lineSpaceLabel;
+
 @end
 
 @implementation LTxViewController
@@ -44,6 +48,9 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.8f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.view ltx_makeToast:@"HELLO,WORLD!"];
     });
+    
+    self.lineSpaceLabel.ltx_lineSpace = 12.f;
+    self.lineSpaceLabel.ltx_wordSpace = 4.f;
 }
 
 

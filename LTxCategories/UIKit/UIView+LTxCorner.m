@@ -17,7 +17,7 @@ NSString const *ltx_view_path = @"ltx_view_path";
 @dynamic cornerType;
 @dynamic cornerRadius;
 
--(void)ltx_updateLableCorner{
+-(void)ltx_updateViewCorner{
     if (self.cornerRadius > 0 && self.cornerType > 0) {
         if(!self.maskLayer){
             self.maskLayer = [CAShapeLayer layer];
@@ -49,7 +49,7 @@ NSString const *ltx_view_path = @"ltx_view_path";
     NSNumber* number = [NSNumber numberWithUnsignedInteger:cornerType];
     objc_setAssociatedObject(self, &ltx_view_cornerType, number, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     
-    [self ltx_updateLableCorner];
+    [self ltx_updateViewCorner];
 }
 
 -(CGFloat)cornerRadius{
@@ -60,7 +60,7 @@ NSString const *ltx_view_path = @"ltx_view_path";
     NSNumber* number = [NSNumber numberWithFloat:cornerRadius];
     objc_setAssociatedObject(self, &ltx_view_cornerRadius, number, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     
-    [self ltx_updateLableCorner];
+    [self ltx_updateViewCorner];
 }
 
 -(CAShapeLayer*)maskLayer{

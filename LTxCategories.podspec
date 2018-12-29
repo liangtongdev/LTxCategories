@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LTxCategories"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "收集常用的扩展，方便开发中使用. "
   s.license      = "MIT"
   s.author             = { "liangtong" => "liangtongdev@163.com" }
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   end
   
   # Foundation
-  s.subspec 'Foundation' do |foundation|
+  s.subspec 'NSFoundation' do |foundation|
       foundation.source_files  =  "LTxCategories/Foundation/*.{h,m}"
       foundation.public_header_files = "LTxCategories/Foundation/*.h"
       foundation.dependency 'LTxCategories/Common'
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
       core.source_files  =  "LTxCategories/LTxCategories.h"
       core.public_header_files = "LTxCategories/LTxCategories.h"
       core.dependency 'LTxCategories/UIKit'
-      core.dependency 'LTxCategories/Foundation'
+      core.dependency 'LTxCategories/NSFoundation'
   end
   
 

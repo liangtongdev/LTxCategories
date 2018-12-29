@@ -1,16 +1,16 @@
 PODS:
-  - LTxCategories (0.0.4):
-    - LTxCategories/Common (= 0.0.4)
-    - LTxCategories/Core (= 0.0.4)
-    - LTxCategories/Foundation (= 0.0.4)
-    - LTxCategories/UIKit (= 0.0.4)
-  - LTxCategories/Common (0.0.4)
-  - LTxCategories/Core (0.0.4):
-    - LTxCategories/Foundation
+  - LTxCategories (0.0.5):
+    - LTxCategories/Common (= 0.0.5)
+    - LTxCategories/Core (= 0.0.5)
+    - LTxCategories/NSFoundation (= 0.0.5)
+    - LTxCategories/UIKit (= 0.0.5)
+  - LTxCategories/Common (0.0.5)
+  - LTxCategories/Core (0.0.5):
+    - LTxCategories/NSFoundation
     - LTxCategories/UIKit
-  - LTxCategories/Foundation (0.0.4):
+  - LTxCategories/NSFoundation (0.0.5):
     - LTxCategories/Common
-  - LTxCategories/UIKit (0.0.4):
+  - LTxCategories/UIKit (0.0.5):
     - LTxCategories/Common
 
 DEPENDENCIES:
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LTxCategories: b0f60ea0b247a895ce666358be1c130fe72a5cde
+  LTxCategories: 6280aba10a1d23c11929582abeaa92ca6fbf9ca1
 
 PODFILE CHECKSUM: 3e23cc4cb1350801cc19b06c65dbe2a1eea4013f
 

@@ -124,8 +124,14 @@
                                     <action selector="stopAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8VP-sy-Wtr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="修改行(字)间距：通常图片和文字之间要留空一行，这样阅读体验不会显得那么乏味，枯燥。留空一行显得简洁更加美观，能大大提升阅读者继续往下看的念头。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BgX-ee-EUU">
+                                <rect key="frame" x="18" y="577" width="339" height="81.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.91791808610000003" green="0.99596524239999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="TZC-E8-gQx" firstAttribute="top" secondItem="X4w-6Q-NX2" secondAttribute="bottom" constant="10" id="0yr-KW-QCP"/>
                             <constraint firstItem="TZC-E8-gQx" firstAttribute="trailing" secondItem="X4w-6Q-NX2" secondAttribute="trailing" id="1Rf-8L-9yA"/>
@@ -134,11 +140,13 @@
                             <constraint firstItem="Eso-Yv-y8y" firstAttribute="top" secondItem="Bp1-K5-Rvb" secondAttribute="bottom" constant="30" id="6R2-qd-Jdq"/>
                             <constraint firstItem="eZW-zV-4Gw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="6co-QL-eR3"/>
                             <constraint firstItem="TZC-E8-gQx" firstAttribute="leading" secondItem="eZW-zV-4Gw" secondAttribute="leading" id="6gz-PS-dF5"/>
+                            <constraint firstItem="BgX-ee-EUU" firstAttribute="top" secondItem="QXA-Uf-Ha1" secondAttribute="bottom" constant="20" id="AqT-pd-4Sr"/>
                             <constraint firstItem="Bp1-K5-Rvb" firstAttribute="leading" secondItem="eZW-zV-4Gw" secondAttribute="leading" id="EKW-kR-6vy"/>
                             <constraint firstItem="CFl-za-lrW" firstAttribute="bottom" secondItem="Bp1-K5-Rvb" secondAttribute="bottom" id="FYp-X0-yrP"/>
                             <constraint firstItem="II3-to-R3r" firstAttribute="bottom" secondItem="Bp1-K5-Rvb" secondAttribute="bottom" id="Gzh-ID-mIb"/>
                             <constraint firstItem="CFl-za-lrW" firstAttribute="width" secondItem="Bp1-K5-Rvb" secondAttribute="width" multiplier="0.5" constant="10" id="Jpg-ck-XvR"/>
                             <constraint firstItem="II3-to-R3r" firstAttribute="width" secondItem="CFl-za-lrW" secondAttribute="width" id="M5L-8e-z1L"/>
+                            <constraint firstItem="BgX-ee-EUU" firstAttribute="trailing" secondItem="X4w-6Q-NX2" secondAttribute="trailing" id="OQF-nX-Skn"/>
                             <constraint firstItem="nwS-X8-Qas" firstAttribute="leading" secondItem="eZW-zV-4Gw" secondAttribute="trailing" constant="10" id="PMQ-46-lwA"/>
                             <constraint firstItem="II3-to-R3r" firstAttribute="top" secondItem="Bp1-K5-Rvb" secondAttribute="top" id="PvP-Xz-Mcc"/>
                             <constraint firstItem="zyi-sf-wY1" firstAttribute="trailing" secondItem="nwS-X8-Qas" secondAttribute="trailing" id="RUl-NG-qTp"/>
@@ -156,6 +164,7 @@
                             <constraint firstItem="II3-to-R3r" firstAttribute="leading" secondItem="CFl-za-lrW" secondAttribute="trailing" constant="30" id="oIV-Sx-GoC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X4w-6Q-NX2" secondAttribute="trailing" constant="18" id="oKo-kv-aCZ"/>
                             <constraint firstItem="nwS-X8-Qas" firstAttribute="bottom" secondItem="eZW-zV-4Gw" secondAttribute="bottom" id="rvj-kg-pfY"/>
+                            <constraint firstItem="BgX-ee-EUU" firstAttribute="leading" secondItem="eZW-zV-4Gw" secondAttribute="leading" id="s8m-rU-5kz"/>
                             <constraint firstItem="CFl-za-lrW" firstAttribute="leading" secondItem="Bp1-K5-Rvb" secondAttribute="trailing" constant="20" id="soR-rJ-MwD"/>
                             <constraint firstItem="zyi-sf-wY1" firstAttribute="top" secondItem="eZW-zV-4Gw" secondAttribute="bottom" constant="6" id="tPV-ym-2Lq"/>
                             <constraint firstItem="X4w-6Q-NX2" firstAttribute="leading" secondItem="nwS-X8-Qas" secondAttribute="trailing" constant="10" id="uEE-at-D18"/>
@@ -176,6 +185,7 @@
                         <outlet property="cornerLabel" destination="eZW-zV-4Gw" id="tiE-Yi-szp"/>
                         <outlet property="cornerLabel2" destination="zyi-sf-wY1" id="0lC-gh-wCK"/>
                         <outlet property="cornerTipL" destination="TZC-E8-gQx" id="net-fU-3Yy"/>
+                        <outlet property="lineSpaceLabel" destination="BgX-ee-EUU" id="2aI-x4-BGs"/>
                         <outlet property="startAnimateBtn" destination="QXA-Uf-Ha1" id="EHJ-xw-nDI"/>
                         <outlet property="stopAnimateBtn" destination="9tk-UN-M8J" id="8SL-qW-Q7P"/>
                         <outlet property="textView" destination="Eso-Yv-y8y" id="sM1-ZW-zho"/>

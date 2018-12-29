@@ -39,5 +39,6 @@
 #import "UIView+LTxToast.h"//Toast
 #import "UIView+LTxConstraint.h"//简单的约束
 #import "UIView+LTxCorner.h"//圆角
+#import "UILabel+LTxSpace.h"//Label的行间距
 
 #endif /* LTxCategories_h */
