@@ -18,6 +18,17 @@
 }
 
 
+/**
+ * URL地址编码-主要针对中文
+ **/
+- (NSURL*)ltx_urlAddress{
+    if (!self || [[self ltx_trimmingWhitespace] isEqualToString:@""]) {
+        return nil;
+    }
+    NSString* urlString = [self stringByAddingPercentEncodingWithAllowedCharacters:
+                           [NSCharacterSet URLQueryAllowedCharacterSet]];
+    return [NSURL URLWithString:urlString];
+}
 
 
 @end

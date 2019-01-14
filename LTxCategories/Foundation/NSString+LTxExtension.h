@@ -19,7 +19,10 @@
 - (NSString *)ltx_trimmingWhitespace;
 
 
-
+/**
+ * URL地址编码-主要针对中文
+ **/
+- (NSURL*)ltx_urlAddress;
 
 
 @end
