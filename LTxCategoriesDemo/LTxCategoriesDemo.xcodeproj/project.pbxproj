@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0532FA26646A7CEA38CB7451 /* Pods_LTxCategoriesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97F18FEBA8E0F9EF57ABE2 /* Pods_LTxCategoriesDemo.framework */; };
+		274D97C42223727800CB9FFC /* LTxPushPopAnimatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D97C32223727800CB9FFC /* LTxPushPopAnimatingViewController.m */; };
 		27E02439213E689C0004757B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E02438213E689C0004757B /* AppDelegate.m */; };
 		27E0243C213E689C0004757B /* LTxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0243B213E689C0004757B /* LTxViewController.m */; };
 		27E0243F213E689C0004757B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E0243D213E689C0004757B /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		274D97C22223727800CB9FFC /* LTxPushPopAnimatingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTxPushPopAnimatingViewController.h; sourceTree = "<group>"; };
+		274D97C32223727800CB9FFC /* LTxPushPopAnimatingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTxPushPopAnimatingViewController.m; sourceTree = "<group>"; };
 		27E02434213E689C0004757B /* LTxCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTxCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E02437213E689C0004757B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27E02438213E689C0004757B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				27E02438213E689C0004757B /* AppDelegate.m */,
 				27E0243A213E689C0004757B /* LTxViewController.h */,
 				27E0243B213E689C0004757B /* LTxViewController.m */,
+				274D97C22223727800CB9FFC /* LTxPushPopAnimatingViewController.h */,
+				274D97C32223727800CB9FFC /* LTxPushPopAnimatingViewController.m */,
 				27E0243D213E689C0004757B /* Main.storyboard */,
 				27E02440213E689D0004757B /* Assets.xcassets */,
 				27E02442213E689D0004757B /* LaunchScreen.storyboard */,
@@ -206,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274D97C42223727800CB9FFC /* LTxPushPopAnimatingViewController.m in Sources */,
 				27E0243C213E689C0004757B /* LTxViewController.m in Sources */,
 				27E02447213E689D0004757B /* main.m in Sources */,
 				27E02439213E689C0004757B /* AppDelegate.m in Sources */,

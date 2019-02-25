@@ -28,6 +28,7 @@
 #import "UIImage+LTxGIF.h"
 #import "UILabel+LTxSpace.h"
 #import "UINavigationBar+LTxAwesome.h"
+#import "UINavigationController+LTxAnimation.h"
 #import "UINavigationItem+LTxLoading.h"
 #import "UITextView+LTxPlaceHolder.h"
 #import "UIView+LTxConstraint.h"

@@ -9,6 +9,8 @@
 #import "LTxViewController.h"
 #import "LTxCategories.h"
 
+#import "LTxPushPopAnimatingViewController.h"
+
 @interface LTxViewController ()
 
 //圆角
@@ -122,6 +124,16 @@
     
     self.cornerTipL.cornerType = LTxCornerAll;
     self.cornerTipL.cornerRadius = 5.f;
+}
+
+
+
+
+- (IBAction)pushAnimation:(UIButton *)sender {
+    LTxPushPopAnimatingViewController* next = [[LTxPushPopAnimatingViewController alloc] init];
+    [self.navigationController  ltx_addAnimationWithType:@"cube" subtype:kCATransitionFromBottom timingFunction:kCAMediaTimingFunctionLinear duration:1];
+    
+    [self.navigationController pushViewController:next animated:NO];
 }
 
 @end
