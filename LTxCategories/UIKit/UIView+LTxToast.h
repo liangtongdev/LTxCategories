@@ -34,9 +34,9 @@
 
 #import <UIKit/UIKit.h>
 
-extern NSString * const LTXToastPositionTop;
-extern NSString * const LTXToastPositionCenter;
-extern NSString * const LTXToastPositionBottom;
+extern NSString * _Nullable const LTXToastPositionTop;
+extern NSString * _Nullable const LTXToastPositionCenter;
+extern NSString * _Nonnull const LTXToastPositionBottom;
 
 NS_ASSUME_NONNULL_BEGIN
 

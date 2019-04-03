@@ -110,20 +110,17 @@
 
 #pragma mark - 圆角
 -(void)showCornerCategories{
-    self.cornerLabel.cornerType = LTxCornerBottomRight | LTxCornerBottomLeft | LTxCornerTopLeft;
-    self.cornerLabel.cornerRadius = 30.f;
+    [self.cornerLabel ltx_addOval];
     
-    self.cornerBtn.cornerType = LTxCornerBottomRight | LTxCornerBottomLeft | LTxCornerTopRight;
-    self.cornerBtn.cornerRadius = 30.f;
+    [self.cornerBtn ltx_addRoundedCornerWithRadius:30.f];
     
-    self.cornerImageView.cornerType = LTxCornerBottomRight | LTxCornerTopLeft;
-    self.cornerImageView.cornerRadius = 40.f;
+    [self.cornerImageView ltx_addQuadCurveWithType:LTxCornerBottomRight | LTxCornerTopLeft cornerRadius:40.f];
     
-    self.cornerLabel2.cornerType = LTxCornerAll;
-    self.cornerLabel2.cornerRadius = 60.f;
     
-    self.cornerTipL.cornerType = LTxCornerAll;
-    self.cornerTipL.cornerRadius = 5.f;
+    [self.cornerLabel2 ltx_addRoundedCornerWithCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(60, 60)];
+    
+    //直接给切掉了
+    [self.cornerTipL ltx_addArcsWithCenter:self.cornerTipL.center radius:5.f startAngle:M_PI endAngle:M_PI / 2 clockwise:YES];
 }
 
 

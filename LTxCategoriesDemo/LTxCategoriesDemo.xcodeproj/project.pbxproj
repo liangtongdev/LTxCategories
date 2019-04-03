@@ -173,17 +173,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LTxCategoriesDemo/Pods-LTxCategoriesDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LTxCategories/LTxCategories.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTxCategoriesDemo/Pods-LTxCategoriesDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTxCategories.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTxCategoriesDemo/Pods-LTxCategoriesDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTxCategoriesDemo/Pods-LTxCategoriesDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LTxCategoriesDemo/Pods-LTxCategoriesDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5C7556B337E282FE094086C5 /* [CP] Check Pods Manifest.lock */ = {

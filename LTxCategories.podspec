@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LTxCategories"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "收集常用的扩展，方便开发中使用. "
   s.license      = "MIT"
   s.author             = { "liangtong" => "liangtongdev@163.com" }
